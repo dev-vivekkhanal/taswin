@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       // style={{ backgroundImage: `url(${bg})` }}
-      className={`min-h-screen bg-cover bg-right md:bg-right-bottom relative w-full  bg-[url('/src/assets/landing/mobile_hero.png')] sm:bg-[url('/src/assets/landing/hero_background.png')] `}
+      className={`min-h-screen bg-cover bg-right md:bg-top relative w-full  bg-[url('/src/assets/landing/mobile_hero.png')] sm:bg-[url('/src/assets/landing/hero_background.png')] `}
     >
       <Header />
 

@@ -4,12 +4,12 @@ import wheat from "../../assets/landing/wheat_group.svg";
 import fruits from "../../assets/landing/fruits_group.svg";
 import oil from "../../assets/landing/oil_group.svg";
 
-const SecondSection = () => {
+const Section2 = () => {
   return (
     <section className="py-32">
       <div className="w-[80%] mx-auto space-y-10">
         <img src={rice} alt="rice icon" />
-        <div className="flex justify-center  gap-32">
+        <div className="flex flex-col md:flex-row justify-center  gap-32">
           <h1 className="font-bold text-4xl flex-1">
             To forget how to dig the earth and to tend the soil is to forget
             ourselves
@@ -24,16 +24,24 @@ const SecondSection = () => {
           </p>
         </div>
 
-        <div className="flex justify-center  gap-32">
+        <div className="flex flex-col md:flex-row justify-center  gap-32">
           <p className="flex-1">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
             adipisci odio, recusandae quod maiores eos? Lorem ipsum dolor sit
             amet consectetur adipisicing elit. Ratione, amet.
           </p>
           <div className="flex-1 flex gap-5 justify-center items-center">
-            <img src={wheat} alt="wheat" className="flex-1" />
-            <img src={fruits} alt="fruits" className="flex-1" />
-            <img src={oil} alt="oil" className="flex-1" />
+            <div className="flex-1">
+              <img src={wheat} alt="wheat" className="w-full" />
+            </div>
+
+            <div className="flex-1">
+              <img src={fruits} alt="fruits" className="w-full" />
+            </div>
+
+            <div className="flex-1">
+              <img src={oil} alt="oil" className="w-full" />
+            </div>
           </div>
         </div>
       </div>
@@ -41,4 +49,4 @@ const SecondSection = () => {
   );
 };
 
-export default SecondSection;
+export default Section2;

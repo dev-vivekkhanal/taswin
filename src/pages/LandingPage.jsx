@@ -1,13 +1,15 @@
 import React from "react";
 import Footer from "../components/footer/Footer";
 import Hero from "../components/landing/Hero";
-import SecondSection from "../components/landing/SecondSection";
+import Section2 from "../components/landing/Section2";
+import Section3 from "../components/landing/Section3";
 
 const LandingPage = () => {
   return (
     <div>
       <Hero />
-      {/* <SecondSection /> */}
+      <Section2 />
+      <Section3 />
       <Footer />
     </div>
   );
