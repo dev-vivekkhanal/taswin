@@ -1,5 +1,6 @@
 import React from "react";
 import { footer_data } from "../../mock/footer/footer_data";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const date = new Date();
@@ -25,14 +26,13 @@ const Footer = () => {
                   {f_data?.all_links?.map((l_data, l_index) => {
                     return (
                       <div key={l_index} className="mb-2">
-                        <a
-                          href="/"
-                          target="_blank"
+                        <Link
+                          href={l_data?.link_address}
                           rel="noopener noreferrer"
                           className="text-[#07260E]"
                         >
                           {l_data?.link_name}
-                        </a>
+                        </Link>
                       </div>
                     );
                   })}

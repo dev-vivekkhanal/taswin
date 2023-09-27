@@ -28,7 +28,7 @@ export const footer_data = {
       all_links: [
         {
           link_name: "About",
-          link_address: "",
+          link_address: "/about",
         },
         {
           link_name: "Products",
@@ -36,10 +36,6 @@ export const footer_data = {
         },
         {
           link_name: "Contact",
-          link_address: "",
-        },
-        {
-          link_name: "Blog",
           link_address: "",
         },
       ],
