@@ -21,7 +21,7 @@ const Header = () => {
     },
   ];
   return (
-    <header className="absolute top-0 left-0 right-0 z-10 bg-gradient-to-b from-[#ffffff48] to-transparent text-[#07260E]">
+    <header className="absolute top-0 left-0 right-0 z-[110] bg-gradient-to-b from-[#ffffff48] to-transparent text-[#07260E]">
       <div className="w-[90%] mx-auto flex justify-between items-start py-8">
         <h1 className="flex-1 text-[#07260E] font-semibold text-3xl">Taswin</h1>
         <div className="flex-1  flex-col gap-4 justify-center items-center hidden md:flex">
