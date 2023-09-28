@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="  max-w-xl text-white space-y-8">
           <h1 className="text-md text-black font-[600] mb-8 cursor-pointer"><span className="text-[#57AC49]">Home</span> | About Us</h1>
           <h1 className="font-extrabold text-2xl md:text-6xl leading-snug">
-            About Us
+            Gallery
           </h1>
           <p className="opacity-80 text-sm md:text-base">
             Enim blandit volutpat maecenas volutpat blandit aliquam.

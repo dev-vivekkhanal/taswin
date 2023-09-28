@@ -27,8 +27,8 @@ const Footer = () => {
                     return (
                       <div key={l_index} className="mb-2">
                         <Link
-                          href={l_data?.link_address}
-                          rel="noopener noreferrer"
+                          to={l_data?.link_address}
+                          // rel="noopener noreferrer"
                           className="text-[#07260E]"
                         >
                           {l_data?.link_name}

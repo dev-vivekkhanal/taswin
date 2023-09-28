@@ -32,7 +32,12 @@ export const footer_data = {
         },
         {
           link_name: "Products",
-          link_address: "",
+          link_address: "/categories",
+        },
+        
+        {
+          link_name: "Blogs",
+          link_address: "/blogs",
         },
         {
           link_name: "Contact",
