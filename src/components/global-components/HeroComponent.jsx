@@ -3,12 +3,13 @@ import Header from "../header/Header";
 import shape from "../../assets/landing/shape.svg";
 
 const Hero = ({ pageTitle, pageDescription, imagePath }) => {
+
     return (
         <section
             className={`min-h-[70vh] bg-cover md:bg-top relative w-full bg-[url('/src/assets/${imagePath}')] bg-bottom`}
         >
             <Header />
-
+            <img src={`/src/assets/${imagePath}`} className="w-full h-full absolute inset-0 object-cover bg-center" alt="" />
             <div className=" absolute inset-0 flex items-center pb-24 w-[80%] mx-auto z-[100]">
                 <div className="  max-w-xl text-white space-y-8">
                     <h1 className="text-md text-black font-[600] mb-8 cursor-pointer"><span className="text-[#57AC49]">Home</span> | {pageTitle}</h1>

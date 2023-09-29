@@ -9,7 +9,7 @@ const GalleryPage = () => {
     const heroData = {
         title: 'Gallery',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nihil error ad doloribus eveniet reiciendis inventore dolores quia, maiores soluta.',
-        imgPath: 'blogs/blog_img.png'
+        imgPath: 'blogs/blog_hero.png'
     };
 
     const galleryData = [
