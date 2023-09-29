@@ -10,21 +10,21 @@ const Header = () => {
     {
       name: "Product",
       path: "/categories",
-      },
-      {
-        name: "Gallery",
-        path: "/gallery",
-      },
-      {
-        name: "Blogs",
-        path: "/blogs",
-      },
-      {
-        name: "About",
-        path: "/about",
-      },
-      {
-        name: "Contact",
+    },
+    {
+      name: "Gallery",
+      path: "/gallery",
+    },
+    {
+      name: "Blogs",
+      path: "/blogs",
+    },
+    {
+      name: "About",
+      path: "/about",
+    },
+    {
+      name: "Contact",
       path: "/",
     },
   ];

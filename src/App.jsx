@@ -4,10 +4,12 @@ import { Route, Routes } from "react-router-dom";
 import CategoriesPage from "./pages/CategoriesPage";
 import BlogPage from "./pages/BlogPage";
 import GalleryPage from "./pages/GalleryPage";
+import Sidebar from "./components/global-components/Sidebar";
 
 function App() {
   return (
-    <main className="font-poppins min-w-[25rem]">
+    <main className="font-poppins min-w-[25rem] relative">
+      <Sidebar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutPage />} />
