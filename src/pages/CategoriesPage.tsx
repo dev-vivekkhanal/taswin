@@ -13,7 +13,7 @@ const CategoriesPage = () => {
 
   return (
     <div>
-        <HeroComponent pageTitle={heroData?.title} pageDescription={heroData?.description} imagePath={heroData?.imgPath} />
+        <HeroComponent pageTitle={heroData?.title} pageDescription={heroData?.description} imagePath={heroData?.imgPath} linkColor={null} />
         <Section2 />
         <Footer />
     </div>

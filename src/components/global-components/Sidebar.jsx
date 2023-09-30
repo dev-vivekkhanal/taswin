@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { MenuButton } from './MenuButton';
+import arrow from '../../assets/global/back.svg'
 
 const Sidebar = () => {
 
@@ -44,12 +45,15 @@ const Sidebar = () => {
             <div className='md:hidden w-fit z-[310] fixed top-8 right-10' onClick={() => setSidebarToggle(!sidebarToggle)}>
                 <MenuButton isMenuOpen={sidebarToggle} setIsMenuOpen={setSidebarToggle} />
             </div>
-            <div className={`md:hidden h-screen w-full transition-all duration-200 ease-out ${sidebarToggle ? 'max-w-[80vw]' : 'max-w-0'} bg-[#F6F4EC] fixed top-0 right-0 z-[300]`}>
+            <div className={`md:hidden h-screen w-full transition-all duration-200 ease-out pt-10 ${sidebarToggle ? 'max-w-[80vw]' : 'max-w-0'} bg-[#DCE9A7] fixed top-0 right-0 z-[300]`}>
                 <div className='w-full pt-24 px-10'>
                     <div className='w-full flex flex-col'>
                         {
                             sidebarLinks?.map((data) => (
-                                <Link onClick={() => setSidebarToggle(false)} key={data?.id} className=' py-2 text-[14px]' to={data?.path} >{data?.name}</Link>
+                                <Link onClick={() => setSidebarToggle(false)} key={data?.id} className='w-full flex justify-between items-center py-2 text-[16px] my-5' to={data?.path} >
+                                    <span>{data?.name}</span>
+                                    <img src={arrow} className='w-[22px]' alt="" />
+                                </Link>
                             ))
                         }
                         <Link></Link>

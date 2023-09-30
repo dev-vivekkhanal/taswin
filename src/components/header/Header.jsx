@@ -1,7 +1,7 @@
 import React from "react";
 import search_icon from "../../assets/global/search_icon.svg";
 
-const Header = () => {
+const Header = ({ textColor }) => {
   const header_links = [
     {
       name: "Home",
@@ -48,7 +48,7 @@ const Header = () => {
             {header_links?.map((link_data, link_index) => {
               return (
                 <li key={link_index}>
-                  <a href={link_data?.path} className="transition-all ">
+                  <a href={link_data?.path} className={`transition-all text-${textColor}`}>
                     {link_data?.name}
                   </a>
                 </li>

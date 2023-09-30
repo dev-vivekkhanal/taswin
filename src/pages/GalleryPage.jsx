@@ -9,7 +9,8 @@ const GalleryPage = () => {
     const heroData = {
         title: 'Gallery',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nihil error ad doloribus eveniet reiciendis inventore dolores quia, maiores soluta.',
-        imgPath: 'blogs/blog_hero.png'
+        imgPath: 'gallery/gallery_hero.png',
+        linkColor: 'white'
     };
 
     const galleryData = [
@@ -62,7 +63,7 @@ const GalleryPage = () => {
 
     return (
         <div>
-            <HeroComponent pageTitle={heroData?.title} pageDescription={heroData?.description} imagePath={heroData?.imgPath} />
+            <HeroComponent pageTitle={heroData?.title} pageDescription={heroData?.description} imagePath={heroData?.imgPath} linkColor={heroData?.linkColor} />
             <div className='w-full px-5 sm:px-10 md:px-[80px] lg:px-[100px] xl:px-[200px] py-32'>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-5 my-5">
                     {galleryData?.map((data, index) => {

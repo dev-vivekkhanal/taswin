@@ -5,6 +5,7 @@ import CategoriesPage from "./pages/CategoriesPage";
 import BlogPage from "./pages/BlogPage";
 import GalleryPage from "./pages/GalleryPage";
 import Sidebar from "./components/global-components/Sidebar";
+import SingleBlogPage from "./pages/SingleBlogPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/blogs" element={<BlogPage />} />
+        <Route path="/blogs/:id" element={<SingleBlogPage />} />
         <Route path="/categories" element={<CategoriesPage />} />
       </Routes>
     </main>
