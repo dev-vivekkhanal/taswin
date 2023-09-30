@@ -28,18 +28,19 @@ export const footer_data = {
       all_links: [
         {
           link_name: "About",
-          link_address: "",
+          link_address: "/about",
         },
         {
           link_name: "Products",
-          link_address: "",
+          link_address: "/categories",
+        },
+        
+        {
+          link_name: "Blogs",
+          link_address: "/blogs",
         },
         {
           link_name: "Contact",
-          link_address: "",
-        },
-        {
-          link_name: "Blog",
           link_address: "",
         },
       ],
