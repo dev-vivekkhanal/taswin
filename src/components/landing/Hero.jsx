@@ -19,7 +19,7 @@ const Hero = () => {
           <p className="opacity-80 text-sm md:text-base">
             Lorem ipsum dolor sit amet consectetur. Ultricies pellentesque
             ridiculus nisi non laoreet nunc porta interdum nunc. Nunc nunc
-            adipiscing molestie sit massa ornare pretium neque.
+            adipiscing molestie sit massa ornare pretium.
           </p>
           <button className="bg-white px-4 py-2 md:px-8 md:py-4 text-sm font-bold text-[#07260E] transition-all active:scale-95">
             Get Started

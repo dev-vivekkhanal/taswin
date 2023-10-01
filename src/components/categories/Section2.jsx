@@ -9,17 +9,6 @@ import ProductCard from "../landing/ProductCard";
 
 const Section2 = () => {
   const [activeTab, setActiveTab] = useState("Rice");
-  // const section_data = [
-  //   "Rice",
-  //   "Grains",
-  //   "Flours",
-  //   "Poultry Feeds",
-  //   "Spices",
-  //   "Iron Ore",
-  //   "Pulses",
-  //   "Vegetables/Fruits",
-  //   "Sugar",
-  // ];
 
   const section_data = [
     {
