@@ -1,5 +1,6 @@
 import React from "react";
 import search_icon from "../../assets/global/search_icon.svg";
+import { Link } from "react-router-dom";
 
 const Header = ({ textColor }) => {
   const header_links = [
@@ -48,9 +49,12 @@ const Header = ({ textColor }) => {
             {header_links?.map((link_data, link_index) => {
               return (
                 <li key={link_index}>
-                  <a href={link_data?.path} className={`transition-all text-${textColor}`}>
+                  <Link
+                    to={link_data?.path}
+                    className={`transition-all text-${textColor}`}
+                  >
                     {link_data?.name}
-                  </a>
+                  </Link>
                 </li>
               );
             })}
