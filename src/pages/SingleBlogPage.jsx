@@ -1,17 +1,24 @@
 import React, { useEffect, useState } from 'react'
 import HeroComponent from '../components/global-components/HeroComponent'
-import { singleBlogData } from '../mock/blogs/blogsData';
+import { blogsData } from '../mock/blogs/blogsData';
+import { useParams } from 'react-router';
 
 const SingleBlogPage = () => {
 
   const [blogData, setBlogData] = useState({});
 
+  const param = useParams();
+
   useEffect(() => {
-    setBlogData(singleBlogData);
+    blogsData?.map((blog) => {
+      if (blog.id == param?.id) {
+        setBlogData(blog);
+      }
+    })
   }, []);
 
   const heroData = {
-    title: blogData?.blogName,
+    title: blogData?.cardTitle,
     description: blogData?.blogDesc,
     imgPath: 'blogs/singleBlog/single_blog_hero.png',
     linkColor: 'white'

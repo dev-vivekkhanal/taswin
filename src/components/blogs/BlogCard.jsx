@@ -1,12 +1,12 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const BlogCard = ({ image, title, date, desc }) => {
+const BlogCard = ({ image, title, date, desc, id }) => {
 
     const navigate = useNavigate();
 
     return (
-        <div className='w-full transition-all duration-200 ease-out' onClick={() => navigate(`/blogs/:id`)}>
+        <div className='w-full transition-all duration-200 ease-out' onClick={() => navigate(`/blogs/${id}`)}>
             <div className='w-full mb-2'>
                 <img src={image} className='w-full' alt="" />
             </div>
