@@ -35,7 +35,7 @@ const Hero = () => {
   return (
     <section
       // style={{ backgroundImage: `url(${bg})` }}
-      className={`h-screen relative w-full bg-green-200`}
+      className={`h-screen relative w-full`}
     >
       <Header />
       <PrimaryCarousal carousalData={slides} />
