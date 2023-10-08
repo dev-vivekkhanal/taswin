@@ -24,10 +24,10 @@ const Header = ({ textColor }) => {
       name: "About",
       path: "/about",
     },
-    {
-      name: "Contact",
-      path: "/",
-    },
+    // {
+    //   name: "Contact",
+    //   path: "/",
+    // },
   ];
   return (
     <header className="absolute top-0 left-0 right-0 z-[110] bg-gradient-to-b from-[#ffffff48] to-transparent text-[#07260E]">

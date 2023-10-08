@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  scroll-behavior: smooth;
+}
+
 
 .menu {
   height: 25px;
@@ -51,4 +55,18 @@
   background: rgba(249, 249, 249, 0.74);
   backdrop-filter: blur(6.9px);
   -webkit-backdrop-filter: blur(6.9px);
+}
+
+.animation-spin {
+  animation: spin 20s linear infinite;
+}
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

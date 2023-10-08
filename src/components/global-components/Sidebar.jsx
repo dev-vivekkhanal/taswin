@@ -51,7 +51,7 @@ const Sidebar = () => {
         />
       </div>
       <div
-        className={`md:hidden h-screen w-full transition-all duration-200 ease-out pt-10 ${
+        className={`md:hidden fixed bottom-0 w-full transition-all duration-200 ease-out pt-10 ${
           sidebarToggle ? "max-w-[80vw]" : "max-w-0"
         } bg-[#DCE9A7] fixed top-0 right-0 z-[300]`}
       >

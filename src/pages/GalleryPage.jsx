@@ -2,6 +2,7 @@ import React from 'react'
 import HeroComponent from '../components/global-components/HeroComponent'
 import square from '../assets/gallery/square.png'
 import rectangle from '../assets/gallery/rectangle.png'
+import play from '../assets/gallery/playButton.svg'
 import Footer from '../components/footer/Footer'
 
 const GalleryPage = () => {
@@ -55,7 +56,7 @@ const GalleryPage = () => {
             type: '',
         },
         {
-            id: 8 ,
+            id: 8,
             image: rectangle,
             type: 'wide',
         },
@@ -82,6 +83,17 @@ const GalleryPage = () => {
                             </div>
                         );
                     })}
+                </div>
+                <div className={`w-full relative`}
+                >
+                    <img
+                        src={rectangle}
+                        alt={"video"}
+                        className="w-full max-h-[500px]"
+                    />
+                    <div className='absolute inset-0 flex justify-center items-center'>
+                        <img src={play} className='w-full max-w-[60px]' alt="" />
+                    </div>
                 </div>
             </div>
             <Footer />
