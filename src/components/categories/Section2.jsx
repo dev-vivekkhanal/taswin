@@ -37,7 +37,7 @@ const Section2 = () => {
                         <Link key={s_data?.id} to={s_data?.variants ? `/categories/${data?.category_id}/variants/${s_data?.product_id}` : ''} className="">
                           <ProductCard title={s_data?.product_name} image={s_data?.product_image} variants={s_data?.variants ? true : false} description={s_data?.value_desc} />
                         </Link>
-                      ))
+                      )).reverse()
                     }
                   </div>
                 </div>
