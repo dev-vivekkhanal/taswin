@@ -30,7 +30,7 @@ const AboutPage = () => {
   return (
     <>
       <div>
-        <HeroComponent pageTitle={heroData?.title} pageDescription={heroData?.description} imagePath={heroData?.imgPath} />
+        <HeroComponent pageTitle={heroData?.title} pageDescription={heroData?.description} imagePath={heroData?.imgPath} linkColor={`primary`} />
         <Section2 />
         <Section3 />
         <Contact ref={contactFormRef} />

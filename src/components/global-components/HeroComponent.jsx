@@ -12,7 +12,7 @@ const Hero = ({ pageTitle, pageDescription, imagePath, linkColor }) => {
             <img src={`/src/assets/${imagePath}`} className="w-full h-full absolute inset-0 object-cover bg-center" alt="" />
             <div className=" absolute inset-0 flex items-center pb-24 w-[80%] mx-auto z-[100]">
                 <div className="  max-w-xl text-white space-y-8">
-                    <h1 className="text-md text-black font-[600] mb-8 cursor-pointer"><span className="text-[#57AC49]">Home</span> | {pageTitle}</h1>
+                    <h1 className="text-md text-black font-[600] mb-8 cursor-pointer"><span className="text-primary">Home</span> | {pageTitle}</h1>
                     <h1 className="font-extrabold text-2xl md:text-6xl leading-snug md:w-[700px]">
                         {pageTitle}
                     </h1>

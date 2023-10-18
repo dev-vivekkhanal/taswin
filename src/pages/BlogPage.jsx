@@ -13,7 +13,7 @@ const BlogPage = () => {
 
   return (
     <div>
-      <HeroComponent pageTitle={heroData?.title} pageDescription={heroData?.description} imagePath={heroData?.imgPath} />
+      <HeroComponent pageTitle={heroData?.title} pageDescription={heroData?.description} imagePath={heroData?.imgPath} linkColor={`white`} />
       <Section2 />
       <Footer />
     </div>

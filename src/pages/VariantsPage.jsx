@@ -25,6 +25,7 @@ const VariantsPage = () => {
             if (data?.category_id == params?.categoryId) {
                 data?.products?.map((product) => {
                     if (product?.product_id == params?.productId) {
+                        console.log(product)
                         setVariantsData(product);
                     }
                 })
@@ -38,9 +39,11 @@ const VariantsPage = () => {
             <div className='w-full px-10 md:px-24 py-32'>
                 <div className='w-full max-w-[1100px] flex flex-col-reverse md:flex-row mx-auto justify-between items-center md:items-start gap-10 md:gap-0'>
                     <div className='max-w-[400px] relative'>
+                    {/* <img src={variantsData?.product_image[0] ? variantsData?.product_image[0] : no_img} className='w-full' alt="" /> */}
+
                         {
                             variantsData?.product_image ?
-                                <img src={variantsData?.product_image} className='w-full' alt="" />
+                                <img src={variantsData?.product_image[0]} className='w-full' alt="" />
                                 :
                                 <img src={no_img} className="w-full rounded-[21px] shadow-md" alt="" />
                         }
@@ -49,8 +52,8 @@ const VariantsPage = () => {
                     <div className='w-full max-w-[700px]'>
                         <div className='flex flex-col items-center'>
                             <h1 className="text-center text-[20px] font-bold leading-none">{variantsData?.product_name}</h1>
-                            <div className={`h-1 w-full bg-[#57AC49] my-6 max-w-[300px]`}></div>
-                            <p className='text-[12px] text-center px-10'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
+                            <div className={`h-1 w-full bg-tertiary my-6 max-w-[300px]`}></div>
+                            <p className='text-[12px] text-center px-10'>{variantsData?.value_desc}</p>
                         </div>
                     </div>
                 </div>
@@ -78,7 +81,7 @@ const VariantsPage = () => {
                                                 if (s_data?.product_id !== params?.productId) {
                                                     return (
                                                         <Link key={s_data?.id} to={s_data?.variants ? `/categories/${params?.categoryId}/variants/${params?.productId}` : ''} className="">
-                                                            <ProductCard title={s_data?.product_name} image={s_data?.product_image} variants={s_data?.variants ? true : false} />
+                                                            <ProductCard title={s_data?.product_name} image={s_data?.product_image[0]} image2={s_data?.product_image[1]} variants={s_data?.variants ? true : false} />
                                                         </Link>
                                                     )
                                                 }

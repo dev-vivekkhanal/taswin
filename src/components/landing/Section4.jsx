@@ -13,7 +13,7 @@ const Section4 = () => {
         <div className='text-white w-full max-w-[1000px] text-center'>
           <h1 className='font-[700] text-[35px] md:text-[44px]'>To forget how to dig the earth and to tend the soil is to forget ourselves</h1>
           <div className='px-4 md:px-[12rem] pt-5'>
-            <p className='text-[15px]'>Lorem ipsum dolor sit amet consectetur. Ultricies pellentesque ridiculus nisi non laoreet nunc porta interdum nunc.</p>
+            <p className='text-[15px]'>Discover the extraordinary richness of nature's treasures in every mouthwatering, organic bite— a journey of pure, wholesome flavor.</p>
           </div>
         </div>
       </div>

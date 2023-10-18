@@ -10,36 +10,30 @@ const Section2 = () => {
       <div className="w-[80%] mx-auto space-y-10">
         <img src={rice} alt="rice icon" />
         <div className="flex flex-col md:flex-row justify-center  gap-32">
-          <h1 className="font-bold text-4xl flex-1">
+          <h1 className="font-bold text-4xl flex-1 text-primary">
             To forget how to dig the earth and to tend the soil is to forget
             ourselves
           </h1>
 
           <p className="flex-1">
-            SPIC GYPSUM is a by-product from SPIC's phosphoric acid
-            manufacturing plant. It's in White crystalline powder and contains
-            23% Calcium and 18% Sulphur. It is an ideal fertilizer for supplying
-            Calcium and Sulphur and the best soil amendment for the reclamation
-            of alkaline soil.
+            Celebrate nature's purity in our organic oasis, where the earth thrives naturally, untouched by harmful chemicals. Our nutrient-rich produce speaks volumes about our dedication to quality and sustainability. Immerse yourself in the richness of our chemical-free, nutritious harvests and relish the unparalleled flavors of nature's bounty, all while contributing to a healthier, greener planet.
           </p>
         </div>
 
         <div className="flex flex-col md:flex-row justify-center  gap-32">
           <p className="flex-1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-            adipisci odio, recusandae quod maiores eos? Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Ratione, amet.
+            As a company, we bridge the gap from farmers' fields to your table, delivering pure organic goodness.
           </p>
           <div className="flex-1 flex gap-5 justify-center items-center">
-            <div className="flex-1">
+            <div className="flex-1 bg-secondary rounded-[7px]">
               <img src={wheat} alt="wheat" className="w-full" />
             </div>
 
-            <div className="flex-1">
+            <div className="flex-1 bg-secondary rounded-[7px]">
               <img src={fruits} alt="fruits" className="w-full" />
             </div>
 
-            <div className="flex-1">
+            <div className="flex-1 bg-secondary rounded-[7px]">
               <img src={oil} alt="oil" className="w-full" />
             </div>
           </div>

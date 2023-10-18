@@ -9,7 +9,7 @@ const Hero = () => {
       // style={{ backgroundImage: `url(${bg})` }}
       className={`min-h-[70vh] bg-cover md:bg-top relative w-full bg-[url('/src/assets/about/about_hero.png')] bg-bottom`}
     >
-      <Header />
+      <Header textColor={`primary`} />
 
       <div className=" absolute inset-0 flex items-center pb-24 w-[80%] mx-auto z-[100]">
         <div className="  max-w-xl text-white space-y-8">

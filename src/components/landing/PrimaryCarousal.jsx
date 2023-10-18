@@ -8,7 +8,7 @@ const PrimaryCarousal = ({ carousalData }) => {
         fade: true,
         autoplay: true,
         infinite: true,
-        speed: 500,
+        speed: 4000,
         slidesToShow: 1,
         slidesToScroll: 1,
         pauseOnHover: false,
