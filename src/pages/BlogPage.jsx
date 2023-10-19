@@ -7,8 +7,7 @@ import cover from "../assets/blogs/blog_hero.png";
 const BlogPage = () => {
   const heroData = {
     title: "Blogs",
-    description:
-      "Curabitur gravida arcu ac tortor dignissim convallis aenean et. Rhoncus mattis rhoncus urna neque viverra.",
+    description: "",
     imgPath: cover,
   };
 

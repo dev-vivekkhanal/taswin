@@ -163,221 +163,221 @@ export const galleryData = [
     type: "",
   },
 
-  {
-    img: image21,
-    type: "",
-  },
-  {
-    img: image22,
-    type: "",
-  },
-  {
-    img: image23,
-    type: "",
-  },
-  {
-    img: image24,
-    type: "",
-  },
-  {
-    img: image25,
-    type: "wide",
-  },
-  {
-    img: image26,
-    type: "",
-  },
-  {
-    img: image27,
-    type: "",
-  },
-  {
-    img: image28,
-    type: "",
-  },
-  {
-    img: image29,
-    type: "",
-  },
-  {
-    img: image30,
-    type: "",
-  },
+  //   {
+  //     img: image21,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image22,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image23,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image24,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image25,
+  //     type: "wide",
+  //   },
+  //   {
+  //     img: image26,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image27,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image28,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image29,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image30,
+  //     type: "",
+  //   },
 
-  {
-    img: image31,
-    type: "",
-  },
-  {
-    img: image32,
-    type: "",
-  },
-  {
-    img: image33,
-    type: "",
-  },
-  {
-    img: image34,
-    type: "",
-  },
-  {
-    img: image35,
-    type: "wide",
-  },
-  {
-    img: image36,
-    type: "",
-  },
-  {
-    img: image37,
-    type: "",
-  },
-  {
-    img: image38,
-    type: "",
-  },
-  {
-    img: image39,
-    type: "",
-  },
-  {
-    img: image40,
-    type: "",
-  },
+  //   {
+  //     img: image31,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image32,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image33,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image34,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image35,
+  //     type: "wide",
+  //   },
+  //   {
+  //     img: image36,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image37,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image38,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image39,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image40,
+  //     type: "",
+  //   },
 
-  {
-    img: image41,
-    type: "",
-  },
-  {
-    img: image42,
-    type: "",
-  },
-  {
-    img: image43,
-    type: "",
-  },
-  {
-    img: image44,
-    type: "",
-  },
-  {
-    img: image45,
-    type: "wide",
-  },
-  {
-    img: image46,
-    type: "",
-  },
-  {
-    img: image47,
-    type: "",
-  },
-  {
-    img: image48,
-    type: "",
-  },
-  {
-    img: image49,
-    type: "",
-  },
-  {
-    img: image50,
-    type: "",
-  },
+  //   {
+  //     img: image41,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image42,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image43,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image44,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image45,
+  //     type: "wide",
+  //   },
+  //   {
+  //     img: image46,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image47,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image48,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image49,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image50,
+  //     type: "",
+  //   },
 
-  {
-    img: image51,
-    type: "",
-  },
-  {
-    img: image52,
-    type: "",
-  },
-  {
-    img: image53,
-    type: "",
-  },
-  {
-    img: image54,
-    type: "",
-  },
-  {
-    img: image55,
-    type: "wide",
-  },
-  {
-    img: image56,
-    type: "",
-  },
-  {
-    img: image57,
-    type: "",
-  },
-  {
-    img: image58,
-    type: "",
-  },
-  {
-    img: image59,
-    type: "",
-  },
-  {
-    img: image60,
-    type: "",
-  },
+  //   {
+  //     img: image51,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image52,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image53,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image54,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image55,
+  //     type: "wide",
+  //   },
+  //   {
+  //     img: image56,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image57,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image58,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image59,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image60,
+  //     type: "",
+  //   },
 
-  {
-    img: image61,
-    type: "",
-  },
-  {
-    img: image62,
-    type: "",
-  },
-  {
-    img: image63,
-    type: "",
-  },
-  {
-    img: image64,
-    type: "",
-  },
-  {
-    img: image65,
-    type: "wide",
-  },
-  {
-    img: image66,
-    type: "",
-  },
-  {
-    img: image67,
-    type: "",
-  },
-  {
-    img: image68,
-    type: "",
-  },
-  {
-    img: image69,
-    type: "",
-  },
-  {
-    img: image70,
-    type: "",
-  },
+  //   {
+  //     img: image61,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image62,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image63,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image64,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image65,
+  //     type: "wide",
+  //   },
+  //   {
+  //     img: image66,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image67,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image68,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image69,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image70,
+  //     type: "",
+  //   },
 
-  {
-    img: image71,
-    type: "",
-  },
-  {
-    img: image72,
-    type: "",
-  },
-  {
-    img: image73,
-    type: "",
-  },
+  //   {
+  //     img: image71,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image72,
+  //     type: "",
+  //   },
+  //   {
+  //     img: image73,
+  //     type: "",
+  //   },
 ];
