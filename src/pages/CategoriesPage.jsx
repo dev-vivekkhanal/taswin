@@ -1,14 +1,14 @@
 import React from "react";
-import Section2 from "../components/blogs/Section2";
+import Section2 from "../components/categories/Section2";
 import Footer from "../components/footer/Footer";
 import HeroComponent from "../components/global-components/HeroComponent";
-import cover from "../assets/blogs/blog_hero.png";
+import cover from "../assets/categories/categoriesCover.png";
 
-const BlogPage = () => {
+const CategoriesPage = () => {
   const heroData = {
-    title: "Blogs",
+    title: "Category",
     description:
-      "Curabitur gravida arcu ac tortor dignissim convallis aenean et. Rhoncus mattis rhoncus urna neque viverra.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nihil error ad doloribus eveniet reiciendis inventore dolores quia, maiores soluta.",
     imgPath: cover,
   };
 
@@ -18,7 +18,7 @@ const BlogPage = () => {
         pageTitle={heroData?.title}
         pageDescription={heroData?.description}
         imagePath={heroData?.imgPath}
-        linkColor={`white`}
+        linkColor={`primary`}
       />
       <Section2 />
       <Footer />
@@ -26,4 +26,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default CategoriesPage;

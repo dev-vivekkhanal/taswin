@@ -1,7 +1,7 @@
 import React from "react";
-import instagram from '../../assets/footer/instagram.svg'
-import twitter from '../../assets/footer/twitter.svg'
-import facebook from '../../assets/footer/facebook.svg'
+import instagram from "../../assets/footer/instagram.svg";
+import twitter from "../../assets/footer/twitter.svg";
+import facebook from "../../assets/footer/facebook.svg";
 import { footer_data } from "../../mock/footer/footer_data";
 import { Link } from "react-router-dom";
 
@@ -10,15 +10,17 @@ const Footer = () => {
   const social = [
     {
       id: 0,
-      title: 'Instagram',
+      title: "Instagram",
       icon: instagram,
-    },{
+    },
+    {
       id: 1,
-      title: 'Twitter',
+      title: "Twitter",
       icon: twitter,
-    },{
+    },
+    {
       id: 2,
-      title: 'Facebook',
+      title: "Facebook",
       icon: facebook,
     },
   ];
@@ -29,16 +31,21 @@ const Footer = () => {
           <h1 className="text-3xl font-semibold mb-5 text-primary">
             {footer_data?.basic_info?.brand_name}
           </h1>
-          <p className="text-primary text-sm max-w-[400px]">{footer_data?.basic_info?.desc}</p>
+          <p className="text-primary text-sm max-w-[400px]">
+            {footer_data?.basic_info?.desc}
+          </p>
           <div className="w-full flex gap-4 mt-10">
-            {
-              social?.map((social) => (
-                <img key={social?.id} src={social?.icon} className="w-full max-w-[40px] cursor-pointer" alt="" />
-              ))
-            }
+            {social?.map((social) => (
+              <img
+                key={social?.id}
+                src={social?.icon}
+                className="w-full max-w-[40px] cursor-pointer"
+                alt=""
+              />
+            ))}
           </div>
         </div>
-        <div className="flex flex-1 justify-between gap-5 flex-wrap ">
+        <div className="flex flex-1 justify-start md:justify-end gap-16 flex-wrap ">
           {footer_data?.footer_links?.map((f_data, f_index) => {
             return (
               <div key={f_index}>
