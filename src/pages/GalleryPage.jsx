@@ -5,6 +5,7 @@ import rectangle from "../assets/gallery/rectangle.png";
 import play from "../assets/gallery/playButton.svg";
 import Footer from "../components/footer/Footer";
 import cover from "../assets/gallery/gallery_hero.png";
+import { galleryData } from "../mock/gallery/galleryData";
 
 const GalleryPage = () => {
   const heroData = {
@@ -15,53 +16,53 @@ const GalleryPage = () => {
     linkColor: "white",
   };
 
-  const galleryData = [
-    {
-      id: 1,
-      image: square,
-      type: "",
-    },
-    {
-      id: 0,
-      image: square,
-      type: "",
-    },
-    {
-      id: 2,
-      image: rectangle,
-      type: "wide",
-    },
-    {
-      id: 3,
-      image: rectangle,
-      type: "wide",
-    },
-    {
-      id: 4,
-      image: square,
-      type: "",
-    },
-    {
-      id: 5,
-      image: square,
-      type: "",
-    },
-    {
-      id: 6,
-      image: square,
-      type: "",
-    },
-    {
-      id: 7,
-      image: square,
-      type: "",
-    },
-    {
-      id: 8,
-      image: rectangle,
-      type: "wide",
-    },
-  ];
+  // const galleryData = [
+  //   {
+  //     id: 1,
+  //     image: square,
+  //     type: "",
+  //   },
+  //   {
+  //     id: 0,
+  //     image: square,
+  //     type: "",
+  //   },
+  //   {
+  //     id: 2,
+  //     image: rectangle,
+  //     type: "wide",
+  //   },
+  //   {
+  //     id: 3,
+  //     image: rectangle,
+  //     type: "wide",
+  //   },
+  //   {
+  //     id: 4,
+  //     image: square,
+  //     type: "",
+  //   },
+  //   {
+  //     id: 5,
+  //     image: square,
+  //     type: "",
+  //   },
+  //   {
+  //     id: 6,
+  //     image: square,
+  //     type: "",
+  //   },
+  //   {
+  //     id: 7,
+  //     image: square,
+  //     type: "",
+  //   },
+  //   {
+  //     id: 8,
+  //     image: rectangle,
+  //     type: "wide",
+  //   },
+  // ];
 
   return (
     <div>
@@ -78,13 +79,13 @@ const GalleryPage = () => {
               <div
                 key={index}
                 className={`flex-auto  ${
-                  data?.type === "wide" ? "col-span-2" : ""
+                  data?.type === "wide" ? "col-span-2 row-span-2" : ""
                 } ${
                   index == galleryData?.length - 1 ? "hidden md:block" : ""
                 } `}
               >
                 <img
-                  src={data?.image}
+                  src={data?.img}
                   alt={"img" + index}
                   className=" h-full object-cover  w-full"
                 />
@@ -92,7 +93,7 @@ const GalleryPage = () => {
             );
           })}
         </div>
-        <div className={`w-full relative`}>
+        <div className={`w-full relative hidden`}>
           <img src={rectangle} alt={"video"} className="w-full max-h-[500px]" />
           <div className="absolute inset-0 flex justify-center items-center">
             <img src={play} className="w-full max-w-[60px]" alt="" />
