@@ -1,5 +1,6 @@
 import React from "react";
 import search_icon from "../../assets/global/search_icon.svg";
+import logo from "../../assets/global/taswin_logo.svg";
 import { Link } from "react-router-dom";
 
 const Header = ({ textColor }) => {
@@ -32,16 +33,18 @@ const Header = ({ textColor }) => {
   return (
     <header className="absolute top-0 left-0 right-0 z-[110] bg-gradient-to-b from-[#ffffff48] to-transparent text-[#07260E]">
       <div className="w-[90%] mx-auto flex justify-between items-start py-8">
-        <h1 className="flex-1 text-[#07260E] font-semibold text-3xl">Taswin</h1>
+        <h1 className="flex-1 text-primary font-semibold text-3xl">
+          <img src={logo} alt="taswin logo" />
+        </h1>
         <div className="flex-1  flex-col gap-4 justify-center items-center hidden md:flex">
           {/* search */}
           <div className="w-full flex ">
             <input
               type="text"
               placeholder="Search here"
-              className="border border-[#07260E] outline-none bg-[#d8d5cf] text-sm placeholder:text-[#07260E] text-[#07260E] px-5 py-2 flex-1"
+              className="border border-primary outline-none bg-white bg-opacity-70 text-sm placeholder:text-primary text-primary px-5 py-2 flex-1"
             />
-            <button className="inline-block bg-[#07260E] p-2">
+            <button className="inline-block bg-primary p-2">
               <img src={search_icon} alt="search" />
             </button>
           </div>

@@ -34,7 +34,7 @@ export const footer_data = {
           link_name: "Products",
           link_address: "/categories",
         },
-        
+
         {
           link_name: "Blogs",
           link_address: "/blogs",
@@ -46,37 +46,37 @@ export const footer_data = {
       ],
     },
 
-    {
-      heading: "Information",
-      all_links: [
-        {
-          link_name: "Help Center",
-          link_address: "",
-        },
-        {
-          link_name: "Payment Methods",
-          link_address: "",
-        },
-        {
-          link_name: "Retun and Refund",
-          link_address: "",
-        },
-        {
-          link_name: "Privacy Policy",
-          link_address: "",
-        },
-      ],
-    },
+    // {
+    //   heading: "Information",
+    //   all_links: [
+    //     {
+    //       link_name: "Help Center",
+    //       link_address: "",
+    //     },
+    //     {
+    //       link_name: "Payment Methods",
+    //       link_address: "",
+    //     },
+    //     {
+    //       link_name: "Retun and Refund",
+    //       link_address: "",
+    //     },
+    //     {
+    //       link_name: "Privacy Policy",
+    //       link_address: "",
+    //     },
+    //   ],
+    // },
 
     {
       heading: "Contact",
       all_links: [
         {
-          link_name: "+1234567890",
+          link_name: "+91 8123477943",
           link_address: "",
         },
         {
-          link_name: "support@taswin.com",
+          link_name: "Vishal K",
           link_address: "",
         },
       ],

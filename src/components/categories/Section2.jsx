@@ -10,12 +10,12 @@ const Section2 = () => {
   return (
     <section className="py-10 md:py-32">
       <div className="w-full">
-        <div className="flex flex-wrap justify-center gap-5 w-full px-4 md:px-0 lg:w-[50%] mx-auto">
+        <div className="flex flex-wrap justify-center gap-5 px-4 w-full md:w-[80%] lg:w-[60%] xl:w-[50%]] mx-auto">
           {allProducts?.map((data, index) => {
             return (
               <button
                 key={index}
-                className={` px-6 py-2 md:py-3 bg-[#DCE9A7] font-bold min-w-[6rem] md:min-w-[8rem] ${data.category_name === activeTab ? "" : "opacity-50"
+                className={` px-6 py-2 md:py-3 text-primary bg-secondary font-bold min-w-[6rem] lg:text-lg md:min-w-[8rem] ${data.category_name === activeTab ? "" : "opacity-50"
                   } `}
                 onClick={() => setActiveTab(data.category_name)}
               >
@@ -35,9 +35,9 @@ const Section2 = () => {
                     {
                       data?.products?.map((s_data) => (
                         <Link key={s_data?.id} to={s_data?.variants ? `/categories/${data?.category_id}/variants/${s_data?.product_id}` : ''} className="">
-                          <ProductCard title={s_data?.product_name} image={s_data?.product_image} variants={s_data?.variants ? true : false} description={s_data?.value_desc} />
+                          <ProductCard title={s_data?.product_name} image={s_data?.product_image[0]} image2={s_data?.product_image[1]} variants={s_data?.variants ? true : false} description={s_data?.value_desc} />
                         </Link>
-                      )).reverse()
+                      ))
                     }
                   </div>
                 </div>

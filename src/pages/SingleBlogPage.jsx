@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import HeroComponent from '../components/global-components/HeroComponent'
-import { blogsData } from '../mock/blogs/blogsData';
-import { useParams } from 'react-router';
+import React, { useEffect, useState } from "react";
+import HeroComponent from "../components/global-components/HeroComponent";
+import { blogsData } from "../mock/blogs/blogsData";
+import { useParams } from "react-router";
+import Footer from "../components/footer/Footer";
 
 const SingleBlogPage = () => {
-
   const [blogData, setBlogData] = useState({});
 
   const param = useParams();
@@ -14,47 +14,57 @@ const SingleBlogPage = () => {
       if (blog.id == param?.id) {
         setBlogData(blog);
       }
-    })
+    });
   }, []);
 
   const heroData = {
     title: blogData?.cardTitle,
     description: blogData?.blogDesc,
-    imgPath: 'blogs/singleBlog/single_blog_hero.png',
-    linkColor: 'white'
+    imgPath: blogData?.page_cover_img,
+    linkColor: "white",
   };
 
   return (
     <div>
-      <HeroComponent pageTitle={heroData?.title} pageDescription={heroData?.description} imagePath={heroData?.imgPath} linkColor={heroData?.linkColor} />
-      <div className='w-full py-32'>
-        <div className='w-[90%] md:w-[65%] lg:w-[50%] mx-auto'>
-          <div className='w-full mx-auto text-center'>
-            <div className='px-5 md:px-24 pb-14'><h1 className='text-[24px] font-[700]'>{blogData?.title1}</h1></div>
-            <p className='text-[14px]'>{blogData?.desc1}</p>
-          </div>
-          <div className='w-full mx-auto text-center mt-16'>
-            <div className='px-5 md:px-24 pb-14'><h1 className='text-[24px] font-[700]'>{blogData?.title2}</h1></div>
-            <p className='text-[14px]'>{blogData?.desc2}</p>
-          </div>
-          <div className='w-full mx-auto text-center mt-16'>
-            <img src={blogData?.img1} className='w-full' alt="" />
-          </div>
-          <div className='w-full mx-auto text-center mt-16'>
-            <div className='px-5 md:px-24 pb-14'><h1 className='text-[24px] font-[700]'>{blogData?.title3}</h1></div>
-            <p className='text-[14px]'>{blogData?.desc3}</p>
-          </div>
-          <div className='w-full mx-auto text-center mt-16'>
-            <img src={blogData?.img2} className='w-full' alt="" />
-          </div>
-          <div className='w-full mx-auto text-center mt-16'>
-            <div className='px-5 md:px-24 pb-14'><h1 className='text-[24px] font-[700]'>{blogData?.title4}</h1></div>
-            <p className='text-[14px]'>{blogData?.desc4}</p>
-          </div>
+      <HeroComponent
+        pageTitle={heroData?.title}
+        pageDescription={heroData?.description}
+        imagePath={heroData?.imgPath}
+        linkColor={heroData?.linkColor}
+      />
+      <div className="w-full py-32">
+        <div className="w-[90%] md:w-[65%] lg:w-[50%] mx-auto">
+          {blogData?.contents?.map((content_data, idx) => {
+            if (content_data?.type === "h1") {
+              return (
+                <h1 className="text-[32px] font-[700]  mb-10 text-[#11145A] text-center">
+                  {content_data?.data}
+                </h1>
+              );
+            }
+
+            if (content_data?.type === "h2") {
+              return (
+                <h1 className="text-[24px] font-[700] mb-5 text-[#11145A] text-center">
+                  {content_data?.data}
+                </h1>
+              );
+            }
+            if (content_data?.type === "p") {
+              return <p className="text-[14px] mb-20">{content_data?.data}</p>;
+            }
+
+            if (content_data?.type === "img") {
+              return (
+                <img src={content_data?.data} className="w-full mb-10" alt="" />
+              );
+            }
+          })}
         </div>
       </div>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default SingleBlogPage
+export default SingleBlogPage;

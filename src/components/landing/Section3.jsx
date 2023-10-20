@@ -10,12 +10,12 @@ const Section3 = () => {
   return (
     <section className="py-10 md:py-32">
       <div className="w-full">
-        <div className="flex flex-wrap justify-center gap-5 w-full px-4 md:px-0 lg:w-[50%] mx-auto">
+        <div className="flex flex-wrap justify-center gap-5 px-4 md:px-0 w-full md:w-[80%] lg:w-[60%] xl:w-[50%] mx-auto">
           {allProducts?.map((data, index) => {
             return (
               <button
                 key={index}
-                className={` px-6 py-2 md:py-3 bg-[#DCE9A7] font-bold min-w-[6rem] md:min-w-[8rem] ${data.category_name === activeTab ? "" : "opacity-50"
+                className={` px-6 py-2 md:py-3 bg-secondary font-bold min-w-[6rem] md:min-w-[8rem] lg:text-lg text-primary ${data.category_name === activeTab ? "" : "opacity-50"
                   } `}
                 onClick={() => setActiveTab(data.category_name)}
               >
@@ -36,9 +36,9 @@ const Section3 = () => {
                       {
                         data?.products?.filter((_filterValue, i) => i < 8).map((s_data) => (
                           <Link key={s_data?.id} to={s_data?.variants ? `/categories/${data?.category_id}/variants/${s_data?.product_id}` : ''} className="">
-                            <ProductCard title={s_data?.product_name} image={s_data?.product_image} variants={s_data?.variants ? true : false} description={s_data?.value_desc} />
+                            <ProductCard title={s_data?.product_name} image={s_data?.product_image[0]} image2={s_data?.product_image[1]} variants={s_data?.variants ? true : false} description={s_data?.value_desc} />
                           </Link>
-                        ))?.reverse()
+                        ))
                       }
                     </div>
                   </div>
@@ -65,7 +65,7 @@ const Section3 = () => {
         </div>
         <div className="w-full flex justify-center items-center">
           <Link to={`/categories`} >
-            <button className="px-6 py-2  bg-[#DCE9A7] font-bold min-w-[6rem] md:min-w-[8rem] active:scale-95 transition-all duration-200 ease-out">VIEW ALL</button>
+            <button className="px-6 py-2  bg-primary text-white font-bold min-w-[6rem] md:min-w-[8rem] active:scale-95 transition-all duration-200 ease-out">VIEW ALL</button>
           </Link>
         </div>
         {/* <div className="absolute w-full flex items- inset-0 overflow-hidden z-[100]">

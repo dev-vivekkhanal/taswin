@@ -20,7 +20,7 @@ const Section7 = () => {
                             <div className='w-full flex'>
                                 <input type="text" className='w-full px-3 border border-[#a7a7a75b] pl-8 text-[14px] py-2 rounded-l-[5px]' placeholder='Enter your email' />
                                 <span className='w-fit -translate-x-[5px]'>
-                                    <PrimaryButton buttonText={`Join`} />
+                                    <PrimaryButton buttonText={`Join`} buttonColor={`primary`} />
                                 </span>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const Section7 = () => {
                                     <div className='w-full flex'>
                                         <input type="text" className='w-full border border-[#a7a7a75b] px-3 pl-4 md:pl-8 text-[14px] py-2 rounded-l-[5px]' placeholder='Enter your email' />
                                         <span className='w-fit -translate-x-[5px]'>
-                                            <PrimaryButton buttonText={`Join`} />
+                                            <PrimaryButton buttonText={`Join`} buttonColor={`primary`} />
                                         </span>
                                     </div>
                                 </div>
@@ -56,13 +56,13 @@ const Section7 = () => {
 
             <div className='w-full text-center pt-32 lg:pt-24'>
                 <div className='w-[80%] lg:w-[60%] xl:w-[50%] mx-auto flex flex-col items-center gap-8'>
-                    <h1 className='text-[28px] font-[700]'>Progress on the farm requires a steady stream of human ingenuity.</h1>
+                    <h1 className='text-[28px] font-[700] text-primary'>Progress on the farm requires a steady stream of human ingenuity.</h1>
                     <p className='text-[13px]'>This requires innovation and new ideas. Not only to grow enough but to grow better for our planet and its people. At Bayer, we’re driving research in biology, biotechnology, crop protection, and data science, allowing us to deliver tailored solutions to farmers faster than ever before. We’re using the resources at our fingertips to discover the science that’s yet to come.</p>
                     <Link to={`/about`} className='mt-16'>
-                        <PrimaryButton buttonText={`ABOUT US`} />
+                        <PrimaryButton buttonText={`ABOUT US`} buttonColor={`primary`} />
                     </Link>
                     <div className='w-full max-w-[400px] pt-10'>
-                        <p className='text-[12px]'>Find us on</p>
+                        <p className='text-[12px] text-primary'>Find us on</p>
                         <div className='w-full flex justify-evenly pt-6'>
                             <img src={facebook} className='w-[20px]' alt="" />
                             <img src={twitter} className='w-[20px]' alt="" />
