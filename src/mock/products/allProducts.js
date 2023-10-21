@@ -9,12 +9,18 @@ import millet_1 from '../../assets/products/grains/Millet/millet_1.png'
 import millet_2 from '../../assets/products/grains/Millet/millet_2.png'
 import sorghum_1 from '../../assets/products/grains/Chickpeas/sorghum_1.png'
 
+
 import wheat_flour_1 from '../../assets/products/flour/WheatFlour/wheat_flour_1.png'
+import wheat_flour_2 from '../../assets/products/flour/WheatFlour/wheat_flour_2.png'
 import rice_flour_1 from '../../assets/products/flour/RiceFlour/rice_flour_1.png'
+import rice_flour_2 from '../../assets/products/flour/RiceFlour/rice_flour_2.png'
 import maida_flour_1 from '../../assets/products/flour/Maida/maida_flour_1.png'
+import maida_flour_2 from '../../assets/products/flour/Maida/maida_flour_2.png'
+
 
 import peanuts_brown from '../../assets/products/pulses/PeanutsBROWN/peanuts_brown.jpg'
 import peanuts_red from '../../assets/products/pulses/PeanutsRED/peanuts_red.jpg'
+
 
 import black_pepper_1 from '../../assets/products/spices/BlackPepper/black_pepper_1.png'
 import black_pepper_2 from '../../assets/products/spices/BlackPepper/black_pepper_2.png'
@@ -34,6 +40,7 @@ import turmeric_fingers_1 from '../../assets/products/spices/TurmericFingers/tur
 import turmeric_fingers_2 from '../../assets/products/spices/TurmericFingers/turmeric_fingers_2.png'
 import turmeric_powder_1 from '../../assets/products/spices/TurmericPowder/turmeric_powder_1.png'
 import turmeric_powder_2 from '../../assets/products/spices/TurmericPowder/turmeric_powder_2.png'
+
 
 import banana_1 from '../../assets/products/veggies-fruits/Banana/banana_1.png'
 import banana_2 from '../../assets/products/veggies-fruits/Banana/banana_2.png'
@@ -61,12 +68,15 @@ import pussa_basmati_rice from '../../assets/products/rice/pussa_basmati_rice.pn
 import sharbati_rice from '../../assets/products/rice/sharbati_rice.png'
 import sigandha_rice from '../../assets/products/rice/sigandha_rice.png'
 
+
 import palm_oil_1 from '../../assets/products/oil/palmOil/palm_oil_1.png'
 import palm_oil_2 from '../../assets/products/oil/palmOil/palm_oil_2.png'
 import sunflower_oil_1 from '../../assets/products/oil/sunflowerOil/sunflower_oil_1.png'
 import sunflower_oil_2 from '../../assets/products/oil/sunflowerOil/sunflower_oil_2.png'
 
+
 import flue_cured_virginia_tobacco_1 from '../../assets/products/tobacco/flueCuredVirginiaTobacco/flue_cured_virginia_tobacco_1.png'
+
 
 import rawChickenLegQuater_1 from '../../assets/products/poultry/chickenLegQuater/chicken_leg_quarter_1.png'
 import rawChickenLegQuater_2 from '../../assets/products/poultry/chickenLegQuater/chicken_leg_quarter_2.png'
@@ -82,6 +92,45 @@ import frozenChickenHearts_1 from '../../assets/products/poultry/frozenChickenHe
 import frozenChickenHearts_2 from '../../assets/products/poultry/frozenChickenHearts/frozen_chicken_hearts_2.png'
 
 
+import _1121_basmati_raw_rice from '../../assets/products/rice/1121BasmatiRice/1121_basmati_raw_rice.png'
+import _1121_basmati_steam_rice from '../../assets/products/rice/1121BasmatiRice/1121_basmati_steam_rice.png'
+import _1121_basmati_golden_sella_rice from '../../assets/products/rice/1121BasmatiRice/1121_basmati_golden_sella_rice.png'
+import _1121_basmati_white_sella_rice from '../../assets/products/rice/1121BasmatiRice/1121_basmati_white_sella_rice.png'
+
+import pusa_basmati_raw_rice from '../../assets/products/rice/pusaBasmatiRice/pusa_basmati_raw_rice.png'
+import pusa_basmati_steam_rice from '../../assets/products/rice/pusaBasmatiRice/pusa_basmati_steam_rice.png'
+import pusa_basmati_golden_sella_rice from '../../assets/products/rice/pusaBasmatiRice/pusa_basmati_golden_sella_rice.png'
+import pusa_basmati_creamy_sella_rice from '../../assets/products/rice/pusaBasmatiRice/pusa_basmati_creamy_sella_rice.png'
+
+import _1509_basmati_raw_rice from '../../assets/products/rice/1509BasmatiRice/1509_basmati_raw_rice.png'
+import _1509_basmati_steam_rice from '../../assets/products/rice/1509BasmatiRice/1509_basmati_steam_rice.png'
+import _1509_basmati_golden_sella_rice from '../../assets/products/rice/1509BasmatiRice/1509_basmati_golden_sella_rice.png'
+import _1509_basmati_creamy_sella_rice from '../../assets/products/rice/1509BasmatiRice/1509_basmati_creamy_sella_rice.png'
+
+import sugandha_raw_rice from '../../assets/products/rice/sugandhaRice/sugandha_raw_rice.png'
+import sugandha_steam_rice from '../../assets/products/rice/sugandhaRice/sugandha_steam_rice.png'
+import sugandha_golden_sella_rice from '../../assets/products/rice/sugandhaRice/sugandha_golden_sella_rice.png'
+import sugandha_creamy_sella_rice from '../../assets/products/rice/sugandhaRice/sugandha_white_sella_rice.png'
+
+import sharbati_raw_rice from '../../assets/products/rice/sharbatiRice/sharbati_raw_rice.png'
+import sharbati_steam_rice from '../../assets/products/rice/sharbatiRice/sharbati_steam_rice.png'
+import sharbati_golden_sella_rice from '../../assets/products/rice/sharbatiRice/sharbati_golden_sella_rice.png'
+import sharbati_creamy_sella_rice from '../../assets/products/rice/sharbatiRice/sharbati_white_sella_rice.png'
+
+import pr_11_raw_rice from '../../assets/products/rice/pr11BasmatiRice/pr_11_raw_rice.png'
+import pr_11_steam_rice from '../../assets/products/rice/pr11BasmatiRice/pr_11_steam_rice.png'
+import pr_11_golden_sella_rice from '../../assets/products/rice/pr11BasmatiRice/pr_11_golden_sella_rice.png'
+import pr_11_white_sella_rice from '../../assets/products/rice/pr11BasmatiRice/pr_11_white_sella_rice.png'
+
+import ir_64_parboiled_rice from '../../assets/products/rice/otherRice/ir_64_parboiled_rice.png'
+import ir_64_raw_rice from '../../assets/products/rice/otherRice/ir_64_raw_rice.png'
+import sona_masuri_rice from '../../assets/products/rice/otherRice/sona_masuri_rice.png'
+import swarna_raw_n_parboiled from '../../assets/products/rice/otherRice/swarna_raw_n_parboiled.png'
+
+import sugar_1 from '../../assets/products/sugar/sugar_1.png'
+import sugar_2 from '../../assets/products/sugar/sugar_2.png'
+
+
 
 export const allProducts = [
     {
@@ -92,21 +141,41 @@ export const allProducts = [
         products: [
             {
                 product_name: "Pusa Basmati Rice",
-                product_id: "8kjw31q-rice",
+                product_id: "34as07r-rice",
                 product_image: [pussa_basmati_rice, pussa_basmati_rice],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
                 variants: [
-                    { v_id: "Pusa-RR-1", v_title: "Raw Rice", v_image: null },
-                    { v_id: "Pusa-SR-2", v_title: "Steam Rice", v_image: null },
-                    { v_id: "Pusa-GSR-3", v_title: "Golden Sella Rice", v_image: null },
-                    { v_id: "Pusa-CSR-4", v_title: "Creamy Sella Rice", v_image: null }
+                    {
+                        v_id: "Pusa-RR-1",
+                        v_title: "Raw Rice",
+                        v_image: pusa_basmati_raw_rice,
+                        variant_desc: "Unprocessed and aromatic, this rice boasts the classic Basmati fragrance and is perfect for biryanis and other traditional dishes.",
+                    },
+                    {
+                        v_id: "Pusa-SR-2",
+                        v_title: "Steam Rice",
+                        v_image: pusa_basmati_steam_rice,
+                        variant_desc: "Steam-cooked to perfection, these grains remain separate and fluffy, making them an excellent choice for diverse cuisines.",
+                    },
+                    {
+                        v_id: "Pusa-GSR-3",
+                        v_title: "Golden Sella Rice",
+                        v_image: pusa_basmati_golden_sella_rice,
+                        variant_desc: "Parboiled and golden in color, this rice retains the authentic Basmati aroma and taste, adding richness to your meals.",
+                    },
+                    {
+                        v_id: "Pusa-CSR-4",
+                        v_title: "Creamy Sella Rice",
+                        v_image: pusa_basmati_creamy_sella_rice,
+                        variant_desc: "Processed and parboiled, this rice features elongated grains and a creamy texture, making it a delightful addition to special occasions and fine dining.",
+                    },
                 ]
             },
             {
                 product_name: "Sorghum",
                 product_id: "t5j8h9-grains",
                 product_image: [
-                    sorghum_2,
+                    sorghum_1,
                     sorghum_2
                 ],
                 value_desc: "Nutrient-packed sorghum grains, naturally gluten-free and great for wholesome meals. A versatile and eco-friendly grain choice."
@@ -152,7 +221,7 @@ export const allProducts = [
                 product_id: "p8q2k6-flours",
                 product_image: [
                     wheat_flour_1,
-                    wheat_flour_1
+                    wheat_flour_2
                 ],
                 value_desc: "Our premium wheat flour, milled to perfection, is the cornerstone of wholesome baking and cooking. Create delicious bread, cakes, and more."
             },
@@ -167,14 +236,34 @@ export const allProducts = [
             },
             {
                 product_name: "1509 Basmati Rice",
-                product_id: "6m5d9x3-rice",
+                product_id: "53bm09z-rice",
                 product_image: [rice_1509_basmati_rice, rice_1509_basmati_rice],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
                 variants: [
-                    { v_id: "1509-RR-1", v_title: "Raw Rice", v_image: null },
-                    { v_id: "1509-SR-2", v_title: "Steam Rice", v_image: null },
-                    { v_id: "1509-GSR-3", v_title: "Golden Sella Rice", v_image: null },
-                    { v_id: "1509-CSR-4", v_title: "Creamy Sella Rice", v_image: null }
+                    {
+                        v_id: "1509-RR-1",
+                        v_title: "Raw Rice",
+                        v_image: _1509_basmati_raw_rice,
+                        variant_desc: "This unprocessed, aromatic rice is perfect for traditional dishes, exuding the classic Basmati fragrance.",
+                    },
+                    {
+                        v_id: "1509-SR-2",
+                        v_title: "Steam Rice",
+                        v_image: _1509_basmati_steam_rice,
+                        variant_desc: "Steam-cooked to perfection, these grains remain separate and fluffy, ideal for various culinary creations.",
+                    },
+                    {
+                        v_id: "1509-GSR-3",
+                        v_title: "Golden Sella Rice",
+                        v_image: _1509_basmati_golden_sella_rice,
+                        variant_desc: "Parboiled and golden in color, this rice retains the authentic Basmati aroma and taste, elevating your meals.",
+                    },
+                    {
+                        v_id: "1509-CSR-4",
+                        v_title: "Creamy Sella Rice",
+                        v_image: _1509_basmati_creamy_sella_rice,
+                        variant_desc: "Processed and parboiled, this rice features elongated grains and a creamy texture, making it a delectable choice for special occasions and fine dining.",
+                    },
                 ]
             },
             {
@@ -202,6 +291,12 @@ export const allProducts = [
                 value_desc: "Experience the rich, savory taste of both thigh and drumstick in our raw chicken leg quarters, ideal for hearty meals."
             },
             {
+                product_name: "Sugar",
+                product_id: "s9g0r3-sugar",
+                product_image: [sugar_1, sugar_2],
+                value_desc: "Discover the essential ingredient for your sweetest recipes with our fine, pure sugar. Perfect for baking, cooking, and sweetening your favorite treats."
+            },
+            {
                 product_name: "Green French Beans",
                 product_id: "v6w4k7-vegetables-fruits",
                 product_image: [
@@ -215,7 +310,7 @@ export const allProducts = [
                 product_id: "m5a2i9-flours",
                 product_image: [
                     rice_flour_1,
-                    rice_flour_1
+                    rice_flour_2
                 ],
                 value_desc: "Craft gluten-free wonders with our versatile rice flour. Ideal for crispy coatings, dumplings, and delectable desserts. Perfect for all your culinary needs."
             },
@@ -230,14 +325,34 @@ export const allProducts = [
             },
             {
                 product_name: "Sugandha Rice",
-                product_id: "2rh96t5-rice",
+                product_id: "19su87g-rice",
                 product_image: [sigandha_rice, sigandha_rice],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
                 variants: [
-                    { v_id: "Sugandha-RR-1", v_title: "Raw Rice", v_image: null },
-                    { v_id: "Sugandha-SR-2", v_title: "Steam Rice", v_image: null },
-                    { v_id: "Sugandha-GSR-3", v_title: "Golden Sella Rice", v_image: null },
-                    { v_id: "Sugandha-WSR-4", v_title: "White Sella Rice", v_image: null }
+                    {
+                        v_id: "Sugandha-RR-1",
+                        v_title: "Raw Rice",
+                        v_image: sugandha_raw_rice,
+                        variant_desc: "Unprocessed and aromatic, perfect for traditional recipes, delivering a distinctive rice scent.",
+                    },
+                    {
+                        v_id: "Sugandha-SR-2",
+                        v_title: "Steam Rice",
+                        v_image: sugandha_steam_rice,
+                        variant_desc: "Steam-cooked to perfection, ensuring fluffy, individual grains for versatile cooking.",
+                    },
+                    {
+                        v_id: "Sugandha-GSR-3",
+                        v_title: "Golden Sella Rice",
+                        v_image: sugandha_golden_sella_rice,
+                        variant_desc: "Parboiled to a golden hue, preserving the rich Sugandha aroma, enhancing culinary richness.",
+                    },
+                    {
+                        v_id: "Sugandha-WSR-4",
+                        v_title: "White Sella Rice",
+                        v_image: sugandha_creamy_sella_rice,
+                        variant_desc: "Processed and parboiled, presenting elongated grains with a pristine white texture, ideal for special occasions and daily dining.",
+                    },
                 ]
             },
             {
@@ -281,20 +396,40 @@ export const allProducts = [
                 product_id: "n7h3u6-flours",
                 product_image: [
                     maida_flour_1,
-                    maida_flour_1
+                    maida_flour_2
                 ],
                 value_desc: "The secret to light and airy Indian bread and pastries. Our fine-textured maida flour guarantees impeccable results in your kitchen."
             },
             {
                 product_name: "Sharbati Rice",
-                product_id: "9fl1z7g-rice",
-                product_image: [sharbati_rice, sharbati_rice],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                product_id: "s7a4b0t1-rice",
+                product_image: ["rice_sharbati", "rice_sharbati"],
+                value_desc: "Discover the exquisite flavor and versatility of Sharbati rice with our premium variants.",
                 variants: [
-                    { v_id: "Sharbati-RR-1", v_title: "Raw Rice", v_image: null },
-                    { v_id: "Sharbati-SR-2", v_title: "Steam Rice", v_image: null },
-                    { v_id: "Sharbati-GSR-3", v_title: "Golden Sella Rice", v_image: null },
-                    { v_id: "Sharbati-WSR-4", v_title: "White Sella Rice", v_image: null }
+                    {
+                        v_id: "Sharbati-RR-1",
+                        v_title: "Sharbati Raw Rice",
+                        v_image: sharbati_raw_rice,
+                        variant_desc: "Unprocessed and fragrant, a classic choice for traditional dishes with a distinct rice aroma.",
+                    },
+                    {
+                        v_id: "Sharbati-SR-2",
+                        v_title: "Sharbati Steam Rice",
+                        v_image: sharbati_steam_rice,
+                        variant_desc: "Expertly steam-cooked, ensuring fluffy, individual grains that suit a variety of culinary creations.",
+                    },
+                    {
+                        v_id: "Sharbati-GSR-3",
+                        v_title: "Sharbati Golden Sella Rice",
+                        v_image: sharbati_golden_sella_rice,
+                        variant_desc: "Parboiled to a lustrous golden hue, capturing the rich Sharbati essence and elevating your culinary experience.",
+                    },
+                    {
+                        v_id: "Sharbati-WSR-4",
+                        v_title: "Sharbati White Sella Rice",
+                        v_image: sharbati_creamy_sella_rice,
+                        variant_desc: "Processed and parboiled, featuring elongated grains with a pristine white texture, making it a delightful choice for special occasions and everyday meals.",
+                    },
                 ]
             },
             {
@@ -349,12 +484,32 @@ export const allProducts = [
                 product_name: "1121 Basmati Rice",
                 product_id: "65aw04z-rice",
                 product_image: [rice_1121_basmati_rice, rice_1121_basmati_rice],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
                 variants: [
-                    { v_id: "1121-RR-1", v_title: "Raw Rice", v_image: null },
-                    { v_id: "1121-SR-2", v_title: "Steam Rice", v_image: null },
-                    { v_id: "1121-GSR-3", v_title: "Golden Sella Rice", v_image: null },
-                    { v_id: "1121-WSR-4", v_title: "White Sella Rice", v_image: null }
+                    {
+                        v_id: "1121-RR-1",
+                        v_title: "Raw Rice",
+                        v_image: _1121_basmati_raw_rice,
+                        variant_desc: "Unprocessed and aromatic, this rice is ideal for biryanis and traditional dishes, offering a fragrant and nutty flavor.",
+                    },
+                    {
+                        v_id: "1121-SR-2",
+                        v_title: "Steam Rice",
+                        v_image: _1121_basmati_steam_rice,
+                        variant_desc: "This rice is steam-cooked to perfection, resulting in fluffy and separate grains, making it a fantastic choice for various cuisines.",
+                    },
+                    {
+                        v_id: "1121-GSR-3",
+                        v_title: "Golden Sella Rice",
+                        v_image: _1121_basmati_golden_sella_rice,
+                        variant_desc: "With a golden hue, this parboiled rice retains the natural aroma and flavor of Basmati, ensuring a rich and delicious meal.",
+                    },
+                    {
+                        v_id: "1121-WSR-4",
+                        v_title: "White Sella Rice",
+                        v_image: _1121_basmati_white_sella_rice,
+                        variant_desc: "Processed and parboiled to perfection, this rice is known for its elongated grains and superior quality, making it an excellent choice for special occasions.",
+                    },
                 ]
             },
             {
@@ -400,15 +555,35 @@ export const allProducts = [
                 value_desc: "Elevate your dishes with the distinct flavor of fenugreek, a spice often used in Indian and Mediterranean cuisine."
             },
             {
-                product_name: "Others",
-                product_id: "5h4k1d7-rice",
-                product_image: [ir_and_other_rice, ir_and_other_rice],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                product_name: "Other Rices",
+                product_id: "o7h8r0-rice",
+                product_image: ["rice_otherrices", "rice_otherrices"],
+                value_desc: "A selection of other rice varieties known for their unique qualities.",
                 variants: [
-                    { v_id: "Sona-Masuri-RR-1", v_title: "Sona Masuri Rice", v_image: null },
-                    { v_id: "IR64-PR-2", v_title: "IR 64 Parboiled Rice", v_image: null },
-                    { v_id: "IR64-RR-3", v_title: "IR 64 Raw Rice", v_image: null },
-                    { v_id: "Swarna-PR-4", v_title: "Swarna Raw and Parboiled", v_image: null }
+                    {
+                        v_id: "SonaMasuri-RR-1",
+                        v_title: "Sona Masuri Raw Rice",
+                        v_image: sona_masuri_rice,
+                        variant_desc: "Aromatic and slender, Sona Masuri rice is ideal for traditional and contemporary dishes, celebrated for its distinct fragrance and versatile nature.",
+                    },
+                    {
+                        v_id: "IR64-PR-2",
+                        v_title: "IR 64 Parboiled Rice",
+                        v_image: ir_64_parboiled_rice,
+                        variant_desc: "Parboiled for enhanced nutrition, IR 64 rice is perfect for hearty meals, known for its rich texture and nutty flavor.",
+                    },
+                    {
+                        v_id: "IR64-RR-3",
+                        v_title: "IR 64 Raw Rice",
+                        v_image: ir_64_raw_rice,
+                        variant_desc: "Unprocessed and versatile, IR 64 raw rice is suitable for various culinary creations, offering a neutral rice aroma.",
+                    },
+                    {
+                        v_id: "Swarna-RR-4",
+                        v_title: "Swarna Raw and Parboiled",
+                        v_image: swarna_raw_n_parboiled,
+                        variant_desc: "Swarna rice, available in both raw and parboiled forms, is a versatile choice for everyday meals, featuring an appealing aroma and taste.",
+                    },
                 ]
             },
             {
@@ -424,8 +599,8 @@ export const allProducts = [
                 product_name: "Chickpeas",
                 product_id: "m8c1g6-grains",
                 product_image: [
-                    sorghum_1,
-                    sorghum_1
+                    '',
+                    ''
                 ],
                 value_desc: "Premium chickpeas, packed with protein and fiber. Perfect for hummus, curries, and salads. Elevate your plant-based cuisine with these legumes."
             },
@@ -463,15 +638,35 @@ export const allProducts = [
                 value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?'
             },
             {
-                product_name: "PR 11",
-                product_id: "7q2x8p9-rice",
-                product_image: [null, null],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                product_name: "PR 11 Rice",
+                product_id: "78pr11r-rice",
+                product_image: [],
+                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
                 variants: [
-                    { v_id: "PR11-RR-1", v_title: "Raw Rice", v_image: null },
-                    { v_id: "PR11-SR-2", v_title: "Steam Rice", v_image: null },
-                    { v_id: "PR11-GSR-3", v_title: "Golden Sella Rice", v_image: null },
-                    { v_id: "PR11-WSR-4", v_title: "White Sella Rice", v_image: null }
+                    {
+                        v_id: "PR11-RR-1",
+                        v_title: "Raw Rice",
+                        v_image: pr_11_raw_rice,
+                        variant_desc: "Unprocessed and aromatic, a traditional choice for classic dishes with a unique rice fragrance.",
+                    },
+                    {
+                        v_id: "PR11-SR-2",
+                        v_title: "Steam Rice",
+                        v_image: pr_11_steam_rice,
+                        variant_desc: "Meticulously steam-cooked for perfect fluffiness, ideal for diverse culinary applications.",
+                    },
+                    {
+                        v_id: "PR11-GSR-3",
+                        v_title: "Golden Sella Rice",
+                        v_image: pr_11_golden_sella_rice,
+                        variant_desc: "Parboiled to a radiant golden hue, capturing the rich PR 11 essence, enhancing your dining experience.",
+                    },
+                    {
+                        v_id: "PR11-WSR-4",
+                        v_title: "White Sella Rice",
+                        v_image: pr_11_white_sella_rice,
+                        variant_desc: "Processed and parboiled, featuring long grains with a pure white texture, making it a delightful choice for special occasions and everyday meals.",
+                    },
                 ]
             },
             {
@@ -523,86 +718,226 @@ export const allProducts = [
                 product_name: "1121 Basmati Rice",
                 product_id: "65aw04z-rice",
                 product_image: [rice_1121_basmati_rice, rice_1121_basmati_rice],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
                 variants: [
-                    { v_id: "1121-RR-1", v_title: "Raw Rice", v_image: null },
-                    { v_id: "1121-SR-2", v_title: "Steam Rice", v_image: null },
-                    { v_id: "1121-GSR-3", v_title: "Golden Sella Rice", v_image: null },
-                    { v_id: "1121-WSR-4", v_title: "White Sella Rice", v_image: null }
+                    {
+                        v_id: "1121-RR-1",
+                        v_title: "Raw Rice",
+                        v_image: _1121_basmati_raw_rice,
+                        variant_desc: "Unprocessed and aromatic, this rice is ideal for biryanis and traditional dishes, offering a fragrant and nutty flavor.",
+                    },
+                    {
+                        v_id: "1121-SR-2",
+                        v_title: "Steam Rice",
+                        v_image: _1121_basmati_steam_rice,
+                        variant_desc: "This rice is steam-cooked to perfection, resulting in fluffy and separate grains, making it a fantastic choice for various cuisines.",
+                    },
+                    {
+                        v_id: "1121-GSR-3",
+                        v_title: "Golden Sella Rice",
+                        v_image: _1121_basmati_golden_sella_rice,
+                        variant_desc: "With a golden hue, this parboiled rice retains the natural aroma and flavor of Basmati, ensuring a rich and delicious meal.",
+                    },
+                    {
+                        v_id: "1121-WSR-4",
+                        v_title: "White Sella Rice",
+                        v_image: _1121_basmati_white_sella_rice,
+                        variant_desc: "Processed and parboiled to perfection, this rice is known for its elongated grains and superior quality, making it an excellent choice for special occasions.",
+                    },
                 ]
             },
             {
                 product_name: "Pusa Basmati Rice",
-                product_id: "8kjw31q-rice",
+                product_id: "34as07r-rice",
                 product_image: [pussa_basmati_rice, pussa_basmati_rice],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
                 variants: [
-                    { v_id: "Pusa-RR-1", v_title: "Raw Rice", v_image: null },
-                    { v_id: "Pusa-SR-2", v_title: "Steam Rice", v_image: null },
-                    { v_id: "Pusa-GSR-3", v_title: "Golden Sella Rice", v_image: null },
-                    { v_id: "Pusa-CSR-4", v_title: "Creamy Sella Rice", v_image: null }
+                    {
+                        v_id: "Pusa-RR-1",
+                        v_title: "Raw Rice",
+                        v_image: pusa_basmati_raw_rice,
+                        variant_desc: "Unprocessed and aromatic, this rice boasts the classic Basmati fragrance and is perfect for biryanis and other traditional dishes.",
+                    },
+                    {
+                        v_id: "Pusa-SR-2",
+                        v_title: "Steam Rice",
+                        v_image: pusa_basmati_steam_rice,
+                        variant_desc: "Steam-cooked to perfection, these grains remain separate and fluffy, making them an excellent choice for diverse cuisines.",
+                    },
+                    {
+                        v_id: "Pusa-GSR-3",
+                        v_title: "Golden Sella Rice",
+                        v_image: pusa_basmati_golden_sella_rice,
+                        variant_desc: "Parboiled and golden in color, this rice retains the authentic Basmati aroma and taste, adding richness to your meals.",
+                    },
+                    {
+                        v_id: "Pusa-CSR-4",
+                        v_title: "Creamy Sella Rice",
+                        v_image: pusa_basmati_creamy_sella_rice,
+                        variant_desc: "Processed and parboiled, this rice features elongated grains and a creamy texture, making it a delightful addition to special occasions and fine dining.",
+                    },
                 ]
             },
             {
                 product_name: "1509 Basmati Rice",
-                product_id: "6m5d9x3-rice",
+                product_id: "53bm09z-rice",
                 product_image: [rice_1509_basmati_rice, rice_1509_basmati_rice],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
                 variants: [
-                    { v_id: "1509-RR-1", v_title: "Raw Rice", v_image: null },
-                    { v_id: "1509-SR-2", v_title: "Steam Rice", v_image: null },
-                    { v_id: "1509-GSR-3", v_title: "Golden Sella Rice", v_image: null },
-                    { v_id: "1509-CSR-4", v_title: "Creamy Sella Rice", v_image: null }
+                    {
+                        v_id: "1509-RR-1",
+                        v_title: "Raw Rice",
+                        v_image: _1509_basmati_raw_rice,
+                        variant_desc: "This unprocessed, aromatic rice is perfect for traditional dishes, exuding the classic Basmati fragrance.",
+                    },
+                    {
+                        v_id: "1509-SR-2",
+                        v_title: "Steam Rice",
+                        v_image: _1509_basmati_steam_rice,
+                        variant_desc: "Steam-cooked to perfection, these grains remain separate and fluffy, ideal for various culinary creations.",
+                    },
+                    {
+                        v_id: "1509-GSR-3",
+                        v_title: "Golden Sella Rice",
+                        v_image: _1509_basmati_golden_sella_rice,
+                        variant_desc: "Parboiled and golden in color, this rice retains the authentic Basmati aroma and taste, elevating your meals.",
+                    },
+                    {
+                        v_id: "1509-CSR-4",
+                        v_title: "Creamy Sella Rice",
+                        v_image: _1509_basmati_creamy_sella_rice,
+                        variant_desc: "Processed and parboiled, this rice features elongated grains and a creamy texture, making it a delectable choice for special occasions and fine dining.",
+                    },
                 ]
             },
             {
                 product_name: "Sugandha Rice",
-                product_id: "2rh96t5-rice",
+                product_id: "19su87g-rice",
                 product_image: [sigandha_rice, sigandha_rice],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
                 variants: [
-                    { v_id: "Sugandha-RR-1", v_title: "Raw Rice", v_image: null },
-                    { v_id: "Sugandha-SR-2", v_title: "Steam Rice", v_image: null },
-                    { v_id: "Sugandha-GSR-3", v_title: "Golden Sella Rice", v_image: null },
-                    { v_id: "Sugandha-WSR-4", v_title: "White Sella Rice", v_image: null }
+                    {
+                        v_id: "Sugandha-RR-1",
+                        v_title: "Raw Rice",
+                        v_image: sugandha_raw_rice,
+                        variant_desc: "Unprocessed and aromatic, perfect for traditional recipes, delivering a distinctive rice scent.",
+                    },
+                    {
+                        v_id: "Sugandha-SR-2",
+                        v_title: "Steam Rice",
+                        v_image: sugandha_steam_rice,
+                        variant_desc: "Steam-cooked to perfection, ensuring fluffy, individual grains for versatile cooking.",
+                    },
+                    {
+                        v_id: "Sugandha-GSR-3",
+                        v_title: "Golden Sella Rice",
+                        v_image: sugandha_golden_sella_rice,
+                        variant_desc: "Parboiled to a golden hue, preserving the rich Sugandha aroma, enhancing culinary richness.",
+                    },
+                    {
+                        v_id: "Sugandha-WSR-4",
+                        v_title: "White Sella Rice",
+                        v_image: sugandha_creamy_sella_rice,
+                        variant_desc: "Processed and parboiled, presenting elongated grains with a pristine white texture, ideal for special occasions and daily dining.",
+                    },
                 ]
             },
             {
                 product_name: "Sharbati Rice",
-                product_id: "9fl1z7g-rice",
+                product_id: "s7a4b0t1-rice",
                 product_image: [sharbati_rice, sharbati_rice],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                value_desc: "Discover the exquisite flavor and versatility of Sharbati rice with our premium variants.",
                 variants: [
-                    { v_id: "Sharbati-RR-1", v_title: "Raw Rice", v_image: null },
-                    { v_id: "Sharbati-SR-2", v_title: "Steam Rice", v_image: null },
-                    { v_id: "Sharbati-GSR-3", v_title: "Golden Sella Rice", v_image: null },
-                    { v_id: "Sharbati-WSR-4", v_title: "White Sella Rice", v_image: null }
+                    {
+                        v_id: "Sharbati-RR-1",
+                        v_title: "Sharbati Raw Rice",
+                        v_image: sharbati_raw_rice,
+                        variant_desc: "Unprocessed and fragrant, a classic choice for traditional dishes with a distinct rice aroma.",
+                    },
+                    {
+                        v_id: "Sharbati-SR-2",
+                        v_title: "Sharbati Steam Rice",
+                        v_image: sharbati_steam_rice,
+                        variant_desc: "Expertly steam-cooked, ensuring fluffy, individual grains that suit a variety of culinary creations.",
+                    },
+                    {
+                        v_id: "Sharbati-GSR-3",
+                        v_title: "Sharbati Golden Sella Rice",
+                        v_image: sharbati_golden_sella_rice,
+                        variant_desc: "Parboiled to a lustrous golden hue, capturing the rich Sharbati essence and elevating your culinary experience.",
+                    },
+                    {
+                        v_id: "Sharbati-WSR-4",
+                        v_title: "Sharbati White Sella Rice",
+                        v_image: sharbati_creamy_sella_rice,
+                        variant_desc: "Processed and parboiled, featuring elongated grains with a pristine white texture, making it a delightful choice for special occasions and everyday meals.",
+                    },
                 ]
             },
             {
-                product_name: "PR 11",
-                product_id: "7q2x8p9-rice",
-                product_image: [null, null],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                product_name: "PR 11 Rice",
+                product_id: "78pr11r-rice",
+                product_image: [],
+                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
                 variants: [
-                    { v_id: "PR11-RR-1", v_title: "Raw Rice", v_image: null },
-                    { v_id: "PR11-SR-2", v_title: "Steam Rice", v_image: null },
-                    { v_id: "PR11-GSR-3", v_title: "Golden Sella Rice", v_image: null },
-                    { v_id: "PR11-WSR-4", v_title: "White Sella Rice", v_image: null }
+                    {
+                        v_id: "PR11-RR-1",
+                        v_title: "Raw Rice",
+                        v_image: pr_11_raw_rice,
+                        variant_desc: "Unprocessed and aromatic, a traditional choice for classic dishes with a unique rice fragrance.",
+                    },
+                    {
+                        v_id: "PR11-SR-2",
+                        v_title: "Steam Rice",
+                        v_image: pr_11_steam_rice,
+                        variant_desc: "Meticulously steam-cooked for perfect fluffiness, ideal for diverse culinary applications.",
+                    },
+                    {
+                        v_id: "PR11-GSR-3",
+                        v_title: "Golden Sella Rice",
+                        v_image: pr_11_golden_sella_rice,
+                        variant_desc: "Parboiled to a radiant golden hue, capturing the rich PR 11 essence, enhancing your dining experience.",
+                    },
+                    {
+                        v_id: "PR11-WSR-4",
+                        v_title: "White Sella Rice",
+                        v_image: pr_11_white_sella_rice,
+                        variant_desc: "Processed and parboiled, featuring long grains with a pure white texture, making it a delightful choice for special occasions and everyday meals.",
+                    },
                 ]
             },
             {
-                product_name: "Others",
-                product_id: "5h4k1d7-rice",
+                product_name: "Other Rices",
+                product_id: "o7h8r0-rice",
                 product_image: [ir_and_other_rice, ir_and_other_rice],
-                value_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?',
+                value_desc: "A selection of other rice varieties known for their unique qualities.",
                 variants: [
-                    { v_id: "Sona-Masuri-RR-1", v_title: "Sona Masuri Rice", v_image: null },
-                    { v_id: "IR64-PR-2", v_title: "IR 64 Parboiled Rice", v_image: null },
-                    { v_id: "IR64-RR-3", v_title: "IR 64 Raw Rice", v_image: null },
-                    { v_id: "Swarna-PR-4", v_title: "Swarna Raw and Parboiled", v_image: null }
+                    {
+                        v_id: "SonaMasuri-RR-1",
+                        v_title: "Sona Masuri Raw Rice",
+                        v_image: sona_masuri_rice,
+                        variant_desc: "Aromatic and slender, Sona Masuri rice is ideal for traditional and contemporary dishes, celebrated for its distinct fragrance and versatile nature.",
+                    },
+                    {
+                        v_id: "IR64-PR-2",
+                        v_title: "IR 64 Parboiled Rice",
+                        v_image: ir_64_parboiled_rice,
+                        variant_desc: "Parboiled for enhanced nutrition, IR 64 rice is perfect for hearty meals, known for its rich texture and nutty flavor.",
+                    },
+                    {
+                        v_id: "IR64-RR-3",
+                        v_title: "IR 64 Raw Rice",
+                        v_image: ir_64_raw_rice,
+                        variant_desc: "Unprocessed and versatile, IR 64 raw rice is suitable for various culinary creations, offering a neutral rice aroma.",
+                    },
+                    {
+                        v_id: "Swarna-RR-4",
+                        v_title: "Swarna Raw and Parboiled",
+                        v_image: swarna_raw_n_parboiled,
+                        variant_desc: "Swarna rice, available in both raw and parboiled forms, is a versatile choice for everyday meals, featuring an appealing aroma and taste.",
+                    },
                 ]
-            },
+            }
         ]
     },
     {
@@ -633,7 +968,7 @@ export const allProducts = [
             {
                 product_name: "Sorghum",
                 product_id: "t5j8h9-grains",
-                product_image: [sorghum_2, sorghum_2],
+                product_image: [sorghum_1, sorghum_2],
                 value_desc: "Nutrient-packed sorghum grains, naturally gluten-free and great for wholesome meals. A versatile and eco-friendly grain choice."
             },
             {
@@ -645,7 +980,7 @@ export const allProducts = [
             {
                 product_name: "Chickpeas",
                 product_id: "m8c1g6-grains",
-                product_image: [sorghum_1, sorghum_1],
+                product_image: [],
                 value_desc: "Premium chickpeas, packed with protein and fiber. Perfect for hummus, curries, and salads. Elevate your plant-based cuisine with these legumes."
             }
         ]
@@ -660,19 +995,19 @@ export const allProducts = [
             {
                 product_name: "Wheat Flour",
                 product_id: "p8q2k6-flours",
-                product_image: [wheat_flour_1, wheat_flour_1],
+                product_image: [wheat_flour_1, wheat_flour_2],
                 value_desc: "Our premium wheat flour, milled to perfection, is the cornerstone of wholesome baking and cooking. Create delicious bread, cakes, and more."
             },
             {
                 product_name: "Rice Flour",
                 product_id: "m5a2i9-flours",
-                product_image: [rice_flour_1, rice_flour_1],
+                product_image: [rice_flour_1, rice_flour_2],
                 value_desc: "Craft gluten-free wonders with our versatile rice flour. Ideal for crispy coatings, dumplings, and delectable desserts. Perfect for all your culinary needs."
             },
             {
                 product_name: "Maida Flour",
                 product_id: "n7h3u6-flours",
-                product_image: [maida_flour_1, maida_flour_1],
+                product_image: [maida_flour_1, maida_flour_2],
                 value_desc: "The secret to light and airy Indian bread and pastries. Our fine-textured maida flour guarantees impeccable results in your kitchen."
             },
         ]
@@ -725,7 +1060,13 @@ export const allProducts = [
                 product_id: "f1h2e3-chicken",
                 product_image: [frozenChickenHearts_1, frozenChickenHearts_2],
                 value_desc: "A delicacy with a unique texture, our frozen chicken hearts add a distinctive touch to your culinary adventures."
-            }
+            },
+            {
+                product_name: "Raw Chicken Drumstick",
+                product_id: "f1h2e3-chicken",
+                product_image: [],
+                value_desc: "Fresh and juicy, our raw chicken drumsticks are perfect for grilling, frying, or roasting to your preference."
+            },
         ]
     },
     {
@@ -871,7 +1212,7 @@ export const allProducts = [
         category_id: 'cat-007',
         status: "active",
         comments: null,
-        totalProducts: null,
+        totalProducts: 2,
         products: [
             {
                 product_name: "Palm Oil",
@@ -912,8 +1253,15 @@ export const allProducts = [
         category_id: 'cat-009',
         status: "active",
         comments: null,
-        totalProducts: null,
-        products: []
+        totalProducts: 1,
+        products: [
+            {
+                product_name: "Sugar",
+                product_id: "s9g0r3-sugar",
+                product_image: [sugar_1, sugar_2],
+                value_desc: "Discover the essential ingredient for your sweetest recipes with our fine, pure sugar. Perfect for baking, cooking, and sweetening your favorite treats."
+            },
+        ]
     },
     {
         category_name: "TOBACCO",
@@ -930,12 +1278,13 @@ export const allProducts = [
             },
         ]
     },
-    {
-        category_name: "ADDITIONAL",
-        category_id: 'cat-011',
-        status: "active",
-        comments: null,
-        totalProducts: null,
-        products: []
-    }
+    // {
+    //     category_name: "ADDITIONAL",
+    //     category_id: 'cat-011',
+    //     status: "active",
+    //     comments: null,
+    //     totalProducts: null,
+    //     products: []
+    // }
 ];
+

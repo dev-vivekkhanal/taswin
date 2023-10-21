@@ -51,7 +51,7 @@ const Contact = () => {
               <textarea type="text" rows={7} className='w-full border border-[#D2D6DA] outline-none px-3 text-[13px] py-2 rounded-[5px]' placeholder='hello@creative-tim.com' />
             </div>
           </div>
-          <PrimaryButton buttonText={`SEND MESSAGE`} />
+          <PrimaryButton buttonText={`SEND MESSAGE`} buttonColor={`black`} />
         </div>
       </div>
     </div>

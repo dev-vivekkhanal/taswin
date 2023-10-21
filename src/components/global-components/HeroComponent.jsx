@@ -21,7 +21,7 @@ const Hero = ({ pageTitle, pageDescription, imagePath, linkColor }) => {
           <h1 className="font-extrabold text-2xl md:text-5xl leading-snug md:w-[700px]">
             {pageTitle}
           </h1>
-          <p className="opacity-80 text-sm md:text-base">{pageDescription}</p>
+          {/* <p className="opacity-80 text-sm md:text-base">{pageDescription}</p> */}
           {/* <button className="bg-white px-4 py-2 md:px-8 md:py-4 text-sm font-bold text-[#07260E] transition-all active:scale-95">
                         Get Started
                     </button> */}

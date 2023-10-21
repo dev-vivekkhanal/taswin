@@ -53,7 +53,7 @@ const Sidebar = () => {
       <div
         className={`md:hidden fixed bottom-0 w-full transition-all duration-200 ease-out pt-10 ${
           sidebarToggle ? "max-w-[80vw]" : "max-w-0"
-        } bg-[#DCE9A7] fixed top-0 right-0 z-[300]`}
+        } bg-tertiary fixed top-0 right-0 z-[300]`}
       >
         <div className="w-full pt-24 px-10">
           <div className="w-full flex flex-col">
