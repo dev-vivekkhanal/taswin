@@ -42,7 +42,7 @@ const Section5 = () => {
             <div className='w-full text-center flex flex-col items-center justify-center py-[6rem]'>
                 <h2 className='text-[15px] text-[#FF7F5D]'>Statistic</h2>
                 <div className='w-full max-w-[600px]'>
-                    <h1 className='font-[700] text-[40px] text-primary'>Helping People To Live Better Than Before</h1>
+                    <h1 className='font-[700] text-[40px] text-primary'>Empowering for a Better Tomorrow</h1>
                 </div>
             </div>
             <div className='w-full flex justify-center items-center py-0 px-20 sm:px-10 md:px-6'>

@@ -13,6 +13,8 @@ const VariantsPage = () => {
 
   const [variantsData, setVariantsData] = useState([]);
 
+  const [activeVariant, setActiveVariant] = useState(0);
+
   const heroData = {
     title: "Rice Variants",
     description:
@@ -20,6 +22,8 @@ const VariantsPage = () => {
     imgPath: cover,
     linkColor: "white",
   };
+
+  const variantTitles = ['Raw Rice', 'Steam Rice', 'Golden Sella Rice', 'White Sella Rice'];
 
   useEffect(() => {
     allProducts?.map((data) => {
@@ -45,9 +49,7 @@ const VariantsPage = () => {
       <div className="w-full px-10 md:px-24 py-32">
         <div className="w-full max-w-[1100px] flex flex-col-reverse md:flex-row mx-auto justify-between items-center md:items-start gap-10 md:gap-0">
           <div className="max-w-[400px] relative">
-            {/* <img src={variantsData?.product_image[0] ? variantsData?.product_image[0] : no_img} className='w-full' alt="" /> */}
-
-            {variantsData?.product_image ? (
+            {variantsData?.product_image?.length ? (
               <img
                 src={variantsData?.product_image[0]}
                 className="w-full"
@@ -60,7 +62,7 @@ const VariantsPage = () => {
                 alt=""
               />
             )}
-            <div className="absolute w-fit rounded-full px-4 py-2 bottom-[5px] right-[5px] bg-[#F6F4EC] text-[#57AC49] text-sm font-[700]">
+            <div className="absolute w-fit rounded-full px-4 py-2 bottom-[5px] right-[5px] bg-secondary text-primary text-sm font-[700]">
               4 Variants
             </div>
           </div>
@@ -79,14 +81,46 @@ const VariantsPage = () => {
           </div>
         </div>
         <div className="h-1 block md:hidden w-full bg-black max-w-[300px] mx-auto my-12"></div>
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 justify-items-center lg:flex justify-between pt-24 gap-4 px-[80px] md:px-[140px] lg:px-20 xl:px-[200px]">
-          {variantsData?.variants?.map((data) => (
-            <ProductCard
-              title={data?.v_title}
-              image={data?.v_image}
-              description={data?.value_desc}
-            />
-          ))}
+        <div className=" w-full max-w-[400px] md:max-w-[1100px] mx-auto grid grid-cols-2 justify-items-center md:flex justify-center mt-[130px] md:px-8 gap-3 md:gap-8">
+          {
+            variantTitles?.map((data, i) => (
+              <div onClick={() => setActiveVariant(i)} className={`rounded-[4px] w-fit px-2 md:px-4 flex justify-center items-center max-w-[200px] border py-1 md:py-2 ${activeVariant == i ? 'bg-primary text-white font-[600]' : 'shadow-md font-[700] text-primary border-secondary active:scale-95 transition-all duration-200 ease-out hover:bg-secondary'} cursor-pointer`}>
+                <h1 className="text-center text-[15px] leading-none">
+                  {data}
+                </h1>
+              </div>
+            ))
+          }
+        </div>
+        <div className="w-full pt-20 gap-4 sm:px-[80px] lg:px-20 xl:px-[200px]">
+          {variantsData?.variants?.map((data, i) => {
+            if (i == activeVariant) {
+              return (
+                <div className="w-full flex flex-col sm:flex-row sm:gap-7 items-center cursor-pointer justify-center">
+                  <div className={`w-full max-w-[200px] transition-all duration-300 ease-out relative rounded-[21px] shadow-md`}>
+                    {
+                      data?.v_image ?
+                        <div className='w-full relative'>
+                          <img
+                            src={data?.v_image}
+                            className={`w-full rounded-[21px] transition-all duration-300 ease-out`}
+                            alt=""
+                          />
+                        </div>
+                        :
+                        <img src={no_img} className="w-full rounded-[21px]" alt="" />
+                    }
+                  </div>
+                  <div className="flex flex-col gap-3">
+                    <h1 className="px-2 pt-5 text-primary text-[15px] font-bold min-w-[100%] h-[2px] leading-none">{data?.v_title}</h1>
+                    <div className={`w-full overflow-hidden transition-all duration-300 ease-out sm:max-w-[400px]`}>
+                      <p className='text-[12px] px-2 py-3 mt-2'>{data?.variant_desc}</p>
+                    </div>
+                  </div>
+                </div>
+              );
+            }
+          })}
         </div>
       </div>
       <div className="w-full pt-20">

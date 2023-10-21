@@ -28,14 +28,14 @@ const Section2 = () => {
       <div className="w-full">
         {
           allProducts?.map((data) => {
-            if (data.category_name === activeTab && data?.products?.length > 1) {
+            if (data.category_name === activeTab && data?.products?.length > 0) {
               return (
                 <div key={data?.category_id} className="w-full px-[4rem] md:px-[7rem] xl:px-[15rem] py-[5rem]">
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 xl:gap-16 justify-items-center">
                     {
                       data?.products?.map((s_data) => (
                         <Link key={s_data?.id} to={s_data?.variants ? `/categories/${data?.category_id}/variants/${s_data?.product_id}` : ''} className="">
-                          <ProductCard title={s_data?.product_name} image={s_data?.product_image[0]} image2={s_data?.product_image[1]} variants={s_data?.variants ? true : false} description={s_data?.value_desc} />
+                          <ProductCard title={s_data?.product_name} image={s_data?.product_image?.length ? s_data?.product_image[0]: null} image2={s_data?.product_image?.length ? s_data?.product_image[1]: null} variants={s_data?.variants ? true : false} description={s_data?.value_desc} />
                         </Link>
                       ))
                     }
