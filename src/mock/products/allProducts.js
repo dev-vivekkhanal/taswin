@@ -1,134 +1,148 @@
-import yellow_corn_1 from '../../assets/products/grains/YellowCorn/yellow_corn_1.png'
-import yellow_corn_2 from '../../assets/products/grains/YellowCorn/yellow_corn_2.png'
-import wheat_1 from '../../assets/products/grains/Wheat/wheat_1.png'
-import wheat_2 from '../../assets/products/grains/Wheat/wheat_2.png'
-import barlay_1 from '../../assets/products/grains/Barley/barley_1.png'
-import barlay_2 from '../../assets/products/grains/Barley/barley_2.png'
-import sorghum_2 from '../../assets/products/grains/Sorghum/sorghum_2.png'
-import millet_1 from '../../assets/products/grains/Millet/millet_1.png'
-import millet_2 from '../../assets/products/grains/Millet/millet_2.png'
-import sorghum_1 from '../../assets/products/grains/Chickpeas/sorghum_1.png'
+import yellow_corn_1 from '../../assets/products/grains/YellowCorn/yellow_corn_1.webp'
+import yellow_corn_2 from '../../assets/products/grains/YellowCorn/yellow_corn_2.webp'
+import wheat_1 from '../../assets/products/grains/Wheat/wheat_1.webp'
+import wheat_2 from '../../assets/products/grains/Wheat/wheat_2.webp'
+import barlay_1 from '../../assets/products/grains/Barley/barley_1.webp'
+import barlay_2 from '../../assets/products/grains/Barley/barley_2.webp'
+import sorghum_2 from '../../assets/products/grains/Sorghum/sorghum_2.webp'
+import millet_1 from '../../assets/products/grains/Millet/millet_1.webp'
+import millet_2 from '../../assets/products/grains/Millet/millet_2.webp'
+import sorghum_1 from '../../assets/products/grains/Chickpeas/sorghum_1.webp'
 
 
-import wheat_flour_1 from '../../assets/products/flour/WheatFlour/wheat_flour_1.png'
-import wheat_flour_2 from '../../assets/products/flour/WheatFlour/wheat_flour_2.png'
-import rice_flour_1 from '../../assets/products/flour/RiceFlour/rice_flour_1.png'
-import rice_flour_2 from '../../assets/products/flour/RiceFlour/rice_flour_2.png'
-import maida_flour_1 from '../../assets/products/flour/Maida/maida_flour_1.png'
-import maida_flour_2 from '../../assets/products/flour/Maida/maida_flour_2.png'
+import wheat_flour_1 from '../../assets/products/flour/WheatFlour/wheat_flour_1.webp'
+import wheat_flour_2 from '../../assets/products/flour/WheatFlour/wheat_flour_2.webp'
+import rice_flour_1 from '../../assets/products/flour/RiceFlour/rice_flour_1.webp'
+import rice_flour_2 from '../../assets/products/flour/RiceFlour/rice_flour_2.webp'
+import maida_flour_1 from '../../assets/products/flour/Maida/maida_flour_1.webp'
+import maida_flour_2 from '../../assets/products/flour/Maida/maida_flour_2.webp'
 
 
-import peanuts_brown from '../../assets/products/pulses/PeanutsBROWN/peanuts_brown.jpg'
-import peanuts_red from '../../assets/products/pulses/PeanutsRED/peanuts_red.jpg'
+import peanuts_brown from '../../assets/products/pulses/PeanutsBROWN/peanuts_brown.webp'
+import peanuts_red from '../../assets/products/pulses/PeanutsRED/peanuts_red.webp'
 
 
-import black_pepper_1 from '../../assets/products/spices/BlackPepper/black_pepper_1.png'
-import black_pepper_2 from '../../assets/products/spices/BlackPepper/black_pepper_2.png'
-import black_sesame_seed_1 from '../../assets/products/spices/BlackSesameSeed/black_sesame_seed_1.png'
-import black_sesame_seed_2 from '../../assets/products/spices/BlackSesameSeed/black_sesame_seed_2.png'
-import cardamon_1 from '../../assets/products/spices/Cardamonn/cardamon_1.png'
-import cardamon_2 from '../../assets/products/spices/Cardamonn/cardamon_2.png'
-import cumin_seeds_1 from '../../assets/products/spices/CuminSeeds/cumin_seeds_1.png'
-import cumin_seeds_2 from '../../assets/products/spices/CuminSeeds/cumin_seeds_2.png'
-import fenugreek_1 from '../../assets/products/spices/Fenugreek/fenugreek_1.png'
-import fenugreek_2 from '../../assets/products/spices/Fenugreek/fenugreek_2.png'
-import hulled_regular_1 from '../../assets/products/spices/HulledRegular/hulled_regular_1.png'
-import red_chilli from '../../assets/products/spices/RedChilli/red_chilli.png'
-import sesame_1 from '../../assets/products/spices/SesameSeed/sesame_1.jpg'
-import sesame_2 from '../../assets/products/spices/SesameSeed/sesame_2.jpg'
-import turmeric_fingers_1 from '../../assets/products/spices/TurmericFingers/turmeric_fingers_1.png'
-import turmeric_fingers_2 from '../../assets/products/spices/TurmericFingers/turmeric_fingers_2.png'
-import turmeric_powder_1 from '../../assets/products/spices/TurmericPowder/turmeric_powder_1.png'
-import turmeric_powder_2 from '../../assets/products/spices/TurmericPowder/turmeric_powder_2.png'
+import black_pepper_1 from '../../assets/products/spices/BlackPepper/black_pepper_1.webp'
+import black_pepper_2 from '../../assets/products/spices/BlackPepper/black_pepper_2.webp'
+import black_sesame_seed_1 from '../../assets/products/spices/BlackSesameSeed/black_sesame_seed_1.webp'
+import black_sesame_seed_2 from '../../assets/products/spices/BlackSesameSeed/black_sesame_seed_2.webp'
+import cardamon_1 from '../../assets/products/spices/Cardamonn/cardamon_1.webp'
+import cardamon_2 from '../../assets/products/spices/Cardamonn/cardamon_2.webp'
+import cumin_seeds_1 from '../../assets/products/spices/CuminSeeds/cumin_seeds_1.webp'
+import cumin_seeds_2 from '../../assets/products/spices/CuminSeeds/cumin_seeds_2.webp'
+import fenugreek_1 from '../../assets/products/spices/Fenugreek/fenugreek_1.webp'
+import fenugreek_2 from '../../assets/products/spices/Fenugreek/fenugreek_2.webp'
+import hulled_regular_1 from '../../assets/products/spices/HulledRegular/hulled_regular_1.webp'
+import red_chilli from '../../assets/products/spices/RedChilli/red_chilli.webp'
+import sesame_1 from '../../assets/products/spices/SesameSeed/sesame_1.webp'
+import sesame_2 from '../../assets/products/spices/SesameSeed/sesame_2.webp'
+import turmeric_fingers_1 from '../../assets/products/spices/TurmericFingers/turmeric_fingers_1.webp'
+import turmeric_fingers_2 from '../../assets/products/spices/TurmericFingers/turmeric_fingers_2.webp'
+import turmeric_powder_1 from '../../assets/products/spices/TurmericPowder/turmeric_powder_1.webp'
+import turmeric_powder_2 from '../../assets/products/spices/TurmericPowder/turmeric_powder_2.webp'
 
 
-import banana_1 from '../../assets/products/veggies-fruits/Banana/banana_1.png'
-import banana_2 from '../../assets/products/veggies-fruits/Banana/banana_2.png'
-import cauliflower_1 from '../../assets/products/veggies-fruits/Cauliflower/cauliflower_1.png'
-import cauliflower_2 from '../../assets/products/veggies-fruits/Cauliflower/cauliflower_2.png'
-import fenugreek_veg_1 from '../../assets/products/veggies-fruits/Fenugreek/fenugreek_1.png'
-import fenugreek_veg_2 from '../../assets/products/veggies-fruits/Fenugreek/fenugreek_2.png'
-import garlic_dice from '../../assets/products/veggies-fruits/GarlicDice/garlic_dice.png'
-import green_french_beans_1 from '../../assets/products/veggies-fruits/GreenFrenchBeans/green_french_beans_1.png'
-import green_french_beans_2 from '../../assets/products/veggies-fruits/GreenFrenchBeans/green_french_beans_2.png'
-import onion_red from '../../assets/products/veggies-fruits/OnionRed/onion_red.png'
-import onion_white_1 from '../../assets/products/veggies-fruits/OnionWhite/onion_white_1.png'
-import papaya_1 from '../../assets/products/veggies-fruits/Papaya/papaya_1.png'
-import papaya_2 from '../../assets/products/veggies-fruits/Papaya/papaya_2.png'
-import peach_1 from '../../assets/products/veggies-fruits/Peach/peach_1.png'
-import peach_2 from '../../assets/products/veggies-fruits/Peach/peach_2.png'
-import spinach_1 from '../../assets/products/veggies-fruits/Spinach/spinach_1.png'
-import spinach_2 from '../../assets/products/veggies-fruits/Spinach/spinach_2.png'
+import banana_1 from '../../assets/products/veggies-fruits/Banana/banana_1.webp'
+import banana_2 from '../../assets/products/veggies-fruits/Banana/banana_2.webp'
+import cauliflower_1 from '../../assets/products/veggies-fruits/Cauliflower/cauliflower_1.webp'
+import cauliflower_2 from '../../assets/products/veggies-fruits/Cauliflower/cauliflower_2.webp'
+import fenugreek_veg_1 from '../../assets/products/veggies-fruits/Fenugreek/fenugreek_1.webp'
+import fenugreek_veg_2 from '../../assets/products/veggies-fruits/Fenugreek/fenugreek_2.webp'
+import garlic_dice from '../../assets/products/veggies-fruits/GarlicDice/garlic_dice.webp'
+import green_french_beans_1 from '../../assets/products/veggies-fruits/GreenFrenchBeans/green_french_beans_1.webp'
+import green_french_beans_2 from '../../assets/products/veggies-fruits/GreenFrenchBeans/green_french_beans_2.webp'
+import onion_red from '../../assets/products/veggies-fruits/OnionRed/onion_red.webp'
+import onion_white_1 from '../../assets/products/veggies-fruits/OnionWhite/onion_white_1.webp'
+import papaya_1 from '../../assets/products/veggies-fruits/Papaya/papaya_1.webp'
+import papaya_2 from '../../assets/products/veggies-fruits/Papaya/papaya_2.webp'
+import peach_1 from '../../assets/products/veggies-fruits/Peach/peach_1.webp'
+import peach_2 from '../../assets/products/veggies-fruits/Peach/peach_2.webp'
+import spinach_1 from '../../assets/products/veggies-fruits/Spinach/spinach_1.webp'
+import spinach_2 from '../../assets/products/veggies-fruits/Spinach/spinach_2.webp'
 
 
-import rice_1121_basmati_rice from '../../assets/products/rice/1121_basmati_rice.png'
-import rice_1509_basmati_rice from '../../assets/products/rice/1509_basmati_rice.png'
-import ir_and_other_rice from '../../assets/products/rice/ir_and_other_rice.png'
-import pussa_basmati_rice from '../../assets/products/rice/pussa_basmati_rice.png'
-import sharbati_rice from '../../assets/products/rice/sharbati_rice.png'
-import sigandha_rice from '../../assets/products/rice/sigandha_rice.png'
+import rice_1121_basmati_rice from '../../assets/products/rice/1121_basmati_rice.webp'
+import rice_1509_basmati_rice from '../../assets/products/rice/1509_basmati_rice.webp'
+import ir_and_other_rice from '../../assets/products/rice/ir_and_other_rice.webp'
+import pussa_basmati_rice from '../../assets/products/rice/pussa_basmati_rice.webp'
+import sharbati_rice from '../../assets/products/rice/sharbati_rice.webp'
+import sigandha_rice from '../../assets/products/rice/sigandha_rice.webp'
 
 
-import palm_oil_1 from '../../assets/products/oil/palmOil/palm_oil_1.png'
-import palm_oil_2 from '../../assets/products/oil/palmOil/palm_oil_2.png'
-import sunflower_oil_1 from '../../assets/products/oil/sunflowerOil/sunflower_oil_1.png'
-import sunflower_oil_2 from '../../assets/products/oil/sunflowerOil/sunflower_oil_2.png'
+import palm_oil_1 from '../../assets/products/oil/palmOil/palm_oil_1.webp'
+import palm_oil_2 from '../../assets/products/oil/palmOil/palm_oil_2.webp'
+import sunflower_oil_1 from '../../assets/products/oil/sunflowerOil/sunflower_oil_1.webp'
+import sunflower_oil_2 from '../../assets/products/oil/sunflowerOil/sunflower_oil_2.webp'
 
 
-import flue_cured_virginia_tobacco_1 from '../../assets/products/tobacco/flueCuredVirginiaTobacco/flue_cured_virginia_tobacco_1.png'
+import flue_cured_virginia_tobacco_1 from '../../assets/products/tobacco/flueCuredVirginiaTobacco/flue_cured_virginia_tobacco_1.webp'
 
 
-import rawChickenLegQuater_1 from '../../assets/products/poultry/chickenLegQuater/chicken_leg_quarter_1.png'
-import rawChickenLegQuater_2 from '../../assets/products/poultry/chickenLegQuater/chicken_leg_quarter_2.png'
-import frozenTwoJointChickenWing_1 from '../../assets/products/poultry/frozenTwoJointWings/frozen_two_joint_wing_chicken_1.png'
-import frozenTwoJointChickenWing_2 from '../../assets/products/poultry/frozenTwoJointWings/frozen_two_joint_wing_chicken_2.png'
-import frozenThreeJointChickenWing_1 from '../../assets/products/poultry/frozenThreeJointWing/frozen_three_joint_wing_chicken_1.png'
-import frozenThreeJointChickenWing_2 from '../../assets/products/poultry/frozenThreeJointWing/frozen_three_joint_wing_chicken_2.png'
-import rawChickenBreast_1 from '../../assets/products/poultry/frozenChickenBreast/frozen_chicken_Breast_1.png'
-import rawChickenBreast_2 from '../../assets/products/poultry/frozenChickenBreast/frozen_chicken_Breast_2.png'
-import frozenChickenFeet_1 from '../../assets/products/poultry/frozenChickenFeet/frozen_chicken_feet_1.png'
-import frozenChickenFeet_2 from '../../assets/products/poultry/frozenChickenFeet/frozen_chicken_feet_2.png'
-import frozenChickenHearts_1 from '../../assets/products/poultry/frozenChickenHearts/frozen_chicken_hearts_1.png'
-import frozenChickenHearts_2 from '../../assets/products/poultry/frozenChickenHearts/frozen_chicken_hearts_2.png'
+import rawChickenLegQuater_1 from '../../assets/products/poultry/chickenLegQuater/chicken_leg_quarter_1.webp'
+import rawChickenLegQuater_2 from '../../assets/products/poultry/chickenLegQuater/chicken_leg_quarter_2.webp'
+import frozenTwoJointChickenWing_1 from '../../assets/products/poultry/frozenTwoJointWings/frozen_two_joint_wing_chicken_1.webp'
+import frozenTwoJointChickenWing_2 from '../../assets/products/poultry/frozenTwoJointWings/frozen_two_joint_wing_chicken_2.webp'
+import frozenThreeJointChickenWing_1 from '../../assets/products/poultry/frozenThreeJointWing/frozen_three_joint_wing_chicken_1.webp'
+import frozenThreeJointChickenWing_2 from '../../assets/products/poultry/frozenThreeJointWing/frozen_three_joint_wing_chicken_2.webp'
+import rawChickenBreast_1 from '../../assets/products/poultry/frozenChickenBreast/frozen_chicken_Breast_1.webp'
+import rawChickenBreast_2 from '../../assets/products/poultry/frozenChickenBreast/frozen_chicken_Breast_2.webp'
+import frozenChickenFeet_1 from '../../assets/products/poultry/frozenChickenFeet/frozen_chicken_feet_1.webp'
+import frozenChickenFeet_2 from '../../assets/products/poultry/frozenChickenFeet/frozen_chicken_feet_2.webp'
+import frozenChickenHearts_1 from '../../assets/products/poultry/frozenChickenHearts/frozen_chicken_hearts_1.webp'
+import frozenChickenHearts_2 from '../../assets/products/poultry/frozenChickenHearts/frozen_chicken_hearts_2.webp'
+import frozenChickenGizzards_1 from '../../assets/products/poultry/frozenChickenGizzards/frozen_chicken_gizzards_1.webp'
+import frozenChickenGizzards_2 from '../../assets/products/poultry/frozenChickenGizzards/frozen_chicken_gizzards_2.webp'
+import frozenChickenKneeCartilageChicken_1 from '../../assets/products/poultry/frozenChickenKneeCartilage/frozen_chicken_knee_cartilage_chicken_1.webp'
+import frozenChickenKneeCartilageChicken_2 from '../../assets/products/poultry/frozenChickenKneeCartilage/frozen_chicken_knee_cartilage_chicken_2.webp'
+import frozenChickenLivers_1 from '../../assets/products/poultry/frozenChickenLiver/frozen_chicken_livers_1.webp'
+import frozenChickenLivers_2 from '../../assets/products/poultry/frozenChickenLiver/frozen_chicken_livers_2.webp'
+import frozenChickenPaws_1 from '../../assets/products/poultry/frozenChickenPaws/frozen_chicken_paws_1.webp'
+import frozenChickenPaws_2 from '../../assets/products/poultry/frozenChickenPaws/frozen_chicken_paws_2.webp'
+import frozenChickenShanks_1 from '../../assets/products/poultry/frozenChickenShanks/frozen_chicken_shanks_1.webp'
+import frozenChickenShanks_2 from '../../assets/products/poultry/frozenChickenShanks/frozen_chicken_shanks_2.webp'
+import frozenMiddleJointWing_1 from '../../assets/products/poultry/frozenMiddleJoint/frozen_middle_joint_wing_1.webp'
+import frozenMiddleJointWing_2 from '../../assets/products/poultry/frozenMiddleJoint/frozen_middle_joint_wing_2.webp'
+import wholeChicken_1 from '../../assets/products/poultry/wholeChicken/whole_chicken_1.webp'
+import wholeChicken_2 from '../../assets/products/poultry/wholeChicken/whole_chicken_2.webp'
 
 
-import _1121_basmati_raw_rice from '../../assets/products/rice/1121BasmatiRice/1121_basmati_raw_rice.png'
-import _1121_basmati_steam_rice from '../../assets/products/rice/1121BasmatiRice/1121_basmati_steam_rice.png'
-import _1121_basmati_golden_sella_rice from '../../assets/products/rice/1121BasmatiRice/1121_basmati_golden_sella_rice.png'
-import _1121_basmati_white_sella_rice from '../../assets/products/rice/1121BasmatiRice/1121_basmati_white_sella_rice.png'
+import _1121_basmati_raw_rice from '../../assets/products/rice/1121BasmatiRice/1121_basmati_raw_rice.webp'
+import _1121_basmati_steam_rice from '../../assets/products/rice/1121BasmatiRice/1121_basmati_steam_rice.webp'
+import _1121_basmati_golden_sella_rice from '../../assets/products/rice/1121BasmatiRice/1121_basmati_golden_sella_rice.webp'
+import _1121_basmati_white_sella_rice from '../../assets/products/rice/1121BasmatiRice/1121_basmati_white_sella_rice.webp'
 
-import pusa_basmati_raw_rice from '../../assets/products/rice/pusaBasmatiRice/pusa_basmati_raw_rice.png'
-import pusa_basmati_steam_rice from '../../assets/products/rice/pusaBasmatiRice/pusa_basmati_steam_rice.png'
-import pusa_basmati_golden_sella_rice from '../../assets/products/rice/pusaBasmatiRice/pusa_basmati_golden_sella_rice.png'
-import pusa_basmati_creamy_sella_rice from '../../assets/products/rice/pusaBasmatiRice/pusa_basmati_creamy_sella_rice.png'
+import pusa_basmati_raw_rice from '../../assets/products/rice/pusaBasmatiRice/pusa_basmati_raw_rice.webp'
+import pusa_basmati_steam_rice from '../../assets/products/rice/pusaBasmatiRice/pusa_basmati_steam_rice.webp'
+import pusa_basmati_golden_sella_rice from '../../assets/products/rice/pusaBasmatiRice/pusa_basmati_golden_sella_rice.webp'
+import pusa_basmati_creamy_sella_rice from '../../assets/products/rice/pusaBasmatiRice/pusa_basmati_creamy_sella_rice.webp'
 
-import _1509_basmati_raw_rice from '../../assets/products/rice/1509BasmatiRice/1509_basmati_raw_rice.png'
-import _1509_basmati_steam_rice from '../../assets/products/rice/1509BasmatiRice/1509_basmati_steam_rice.png'
-import _1509_basmati_golden_sella_rice from '../../assets/products/rice/1509BasmatiRice/1509_basmati_golden_sella_rice.png'
-import _1509_basmati_creamy_sella_rice from '../../assets/products/rice/1509BasmatiRice/1509_basmati_creamy_sella_rice.png'
+import _1509_basmati_raw_rice from '../../assets/products/rice/1509BasmatiRice/1509_basmati_raw_rice.webp'
+import _1509_basmati_steam_rice from '../../assets/products/rice/1509BasmatiRice/1509_basmati_steam_rice.webp'
+import _1509_basmati_golden_sella_rice from '../../assets/products/rice/1509BasmatiRice/1509_basmati_golden_sella_rice.webp'
+import _1509_basmati_creamy_sella_rice from '../../assets/products/rice/1509BasmatiRice/1509_basmati_creamy_sella_rice.webp'
 
-import sugandha_raw_rice from '../../assets/products/rice/sugandhaRice/sugandha_raw_rice.png'
-import sugandha_steam_rice from '../../assets/products/rice/sugandhaRice/sugandha_steam_rice.png'
-import sugandha_golden_sella_rice from '../../assets/products/rice/sugandhaRice/sugandha_golden_sella_rice.png'
-import sugandha_creamy_sella_rice from '../../assets/products/rice/sugandhaRice/sugandha_white_sella_rice.png'
+import sugandha_raw_rice from '../../assets/products/rice/sugandhaRice/sugandha_raw_rice.webp'
+import sugandha_steam_rice from '../../assets/products/rice/sugandhaRice/sugandha_steam_rice.webp'
+import sugandha_golden_sella_rice from '../../assets/products/rice/sugandhaRice/sugandha_golden_sella_rice.webp'
+import sugandha_creamy_sella_rice from '../../assets/products/rice/sugandhaRice/sugandha_white_sella_rice.webp'
 
-import sharbati_raw_rice from '../../assets/products/rice/sharbatiRice/sharbati_raw_rice.png'
-import sharbati_steam_rice from '../../assets/products/rice/sharbatiRice/sharbati_steam_rice.png'
-import sharbati_golden_sella_rice from '../../assets/products/rice/sharbatiRice/sharbati_golden_sella_rice.png'
-import sharbati_creamy_sella_rice from '../../assets/products/rice/sharbatiRice/sharbati_white_sella_rice.png'
+import sharbati_raw_rice from '../../assets/products/rice/sharbatiRice/sharbati_raw_rice.webp'
+import sharbati_steam_rice from '../../assets/products/rice/sharbatiRice/sharbati_steam_rice.webp'
+import sharbati_golden_sella_rice from '../../assets/products/rice/sharbatiRice/sharbati_golden_sella_rice.webp'
+import sharbati_creamy_sella_rice from '../../assets/products/rice/sharbatiRice/sharbati_white_sella_rice.webp'
 
-import pr_11_raw_rice from '../../assets/products/rice/pr11BasmatiRice/pr_11_raw_rice.png'
-import pr_11_steam_rice from '../../assets/products/rice/pr11BasmatiRice/pr_11_steam_rice.png'
-import pr_11_golden_sella_rice from '../../assets/products/rice/pr11BasmatiRice/pr_11_golden_sella_rice.png'
-import pr_11_white_sella_rice from '../../assets/products/rice/pr11BasmatiRice/pr_11_white_sella_rice.png'
+import pr_11_raw_rice from '../../assets/products/rice/pr11BasmatiRice/pr_11_raw_rice.webp'
+import pr_11_steam_rice from '../../assets/products/rice/pr11BasmatiRice/pr_11_steam_rice.webp'
+import pr_11_golden_sella_rice from '../../assets/products/rice/pr11BasmatiRice/pr_11_golden_sella_rice.webp'
+import pr_11_white_sella_rice from '../../assets/products/rice/pr11BasmatiRice/pr_11_white_sella_rice.webp'
 
-import ir_64_parboiled_rice from '../../assets/products/rice/otherRice/ir_64_parboiled_rice.png'
-import ir_64_raw_rice from '../../assets/products/rice/otherRice/ir_64_raw_rice.png'
-import sona_masuri_rice from '../../assets/products/rice/otherRice/sona_masuri_rice.png'
-import swarna_raw_n_parboiled from '../../assets/products/rice/otherRice/swarna_raw_n_parboiled.png'
+import ir_64_parboiled_rice from '../../assets/products/rice/otherRice/ir_64_parboiled_rice.webp'
+import ir_64_raw_rice from '../../assets/products/rice/otherRice/ir_64_raw_rice.webp'
+import sona_masuri_rice from '../../assets/products/rice/otherRice/sona_masuri_rice.webp'
+import swarna_raw_n_parboiled from '../../assets/products/rice/otherRice/swarna_raw_n_parboiled.webp'
 
-import sugar_1 from '../../assets/products/sugar/sugar_1.png'
-import sugar_2 from '../../assets/products/sugar/sugar_2.png'
+import sugar_1 from '../../assets/products/sugar/sugar_1.webp'
+import sugar_2 from '../../assets/products/sugar/sugar_2.webp'
 
 
 
@@ -208,13 +222,16 @@ export const allProducts = [
                 value_desc: "Our premium palm oil is a versatile cooking oil known for its stability and rich, red hue. Ideal for a wide range of culinary applications."
             },
             {
-                product_name: "Onion White",
-                product_id: "g5c2o6-vegetables-fruits",
-                product_image: [
-                    onion_white_1,
-                    onion_white_1
-                ],
-                value_desc: "Versatile and milder in taste, our white onions are perfect for a wide range of recipes, from salads to stews."
+                product_name: "Frozen Chicken Gizzards",
+                product_id: "g1z98d-chicken",
+                product_image: [frozenChickenGizzards_1, frozenChickenGizzards_2],
+                value_desc: ""
+            },
+            {
+                product_name: "Frozen Chicken Knees",
+                product_id: "kn33z5-chicken",
+                product_image: [frozenChickenKneeCartilageChicken_1, frozenChickenKneeCartilageChicken_2],
+                value_desc: ""
             },
             {
                 product_name: "Wheat Flour",
@@ -313,6 +330,21 @@ export const allProducts = [
                     rice_flour_2
                 ],
                 value_desc: "Craft gluten-free wonders with our versatile rice flour. Ideal for crispy coatings, dumplings, and delectable desserts. Perfect for all your culinary needs."
+            },
+            {
+                product_name: "Frozen Chicken Livers",
+                product_id: "l1v443-chicken",
+                product_image: [frozenChickenLivers_1, frozenChickenLivers_2],
+                value_desc: ""
+            },
+            {
+                product_name: "Onion White",
+                product_id: "g5c2o6-vegetables-fruits",
+                product_image: [
+                    onion_white_1,
+                    onion_white_1
+                ],
+                value_desc: "Versatile and milder in taste, our white onions are perfect for a wide range of recipes, from salads to stews."
             },
             {
                 product_name: "Banana",
@@ -555,6 +587,18 @@ export const allProducts = [
                 value_desc: "Elevate your dishes with the distinct flavor of fenugreek, a spice often used in Indian and Mediterranean cuisine."
             },
             {
+                product_name: "Frozen Chicken Paws",
+                product_id: "p0wzs5-chicken",
+                product_image: [frozenChickenPaws_1, frozenChickenPaws_2],
+                value_desc: ""
+            },
+            {
+                product_name: "Frozen Chicken Shanks",
+                product_id: "sh39sk-chicken",
+                product_image: [frozenChickenShanks_1, frozenChickenShanks_2],
+                value_desc: ""
+            },
+            {
                 product_name: "Other Rices",
                 product_id: "o7h8r0-rice",
                 product_image: ["rice_otherrices", "rice_otherrices"],
@@ -677,6 +721,18 @@ export const allProducts = [
                     peanuts_brown
                 ],
                 value_desc: "These brown-skinned peanuts are roasted to perfection, offering a crunchy and nutty snack packed with flavor and nutrition."
+            },
+            {
+                product_name: "Frozen Chicken Middle Joint",
+                product_id: "j01nt5-chicken",
+                product_image: [frozenMiddleJointWing_1, frozenMiddleJointWing_2],
+                value_desc: ""
+            },
+            {
+                product_name: "Whole chicken",
+                product_id: "wh01e-chicken",
+                product_image: [wholeChicken_1, wholeChicken_2],
+                value_desc: ""
             },
             {
                 product_name: "Papaya",
@@ -1066,6 +1122,48 @@ export const allProducts = [
                 product_id: "f1h2e3-chicken",
                 product_image: [],
                 value_desc: "Fresh and juicy, our raw chicken drumsticks are perfect for grilling, frying, or roasting to your preference."
+            },
+            {
+                product_name: "Frozen Chicken Gizzards",
+                product_id: "g1z98d-chicken",
+                product_image: [frozenChickenGizzards_1, frozenChickenGizzards_2],
+                value_desc: ""
+            },
+            {
+                product_name: "Frozen Chicken Knees",
+                product_id: "kn33z5-chicken",
+                product_image: [frozenChickenKneeCartilageChicken_1, frozenChickenKneeCartilageChicken_2],
+                value_desc: ""
+            },
+            {
+                product_name: "Frozen Chicken Livers",
+                product_id: "l1v443-chicken",
+                product_image: [frozenChickenLivers_1, frozenChickenLivers_2],
+                value_desc: ""
+            },
+            {
+                product_name: "Frozen Chicken Paws",
+                product_id: "p0wzs5-chicken",
+                product_image: [frozenChickenPaws_1, frozenChickenPaws_2],
+                value_desc: ""
+            },
+            {
+                product_name: "Frozen Chicken Shanks",
+                product_id: "sh39sk-chicken",
+                product_image: [frozenChickenShanks_1, frozenChickenShanks_2],
+                value_desc: ""
+            },
+            {
+                product_name: "Frozen Chicken Middle Joint",
+                product_id: "j01nt5-chicken",
+                product_image: [frozenMiddleJointWing_1, frozenMiddleJointWing_2],
+                value_desc: ""
+            },
+            {
+                product_name: "Whole chicken",
+                product_id: "wh01e-chicken",
+                product_image: [wholeChicken_1, wholeChicken_2],
+                value_desc: ""
             },
         ]
     },

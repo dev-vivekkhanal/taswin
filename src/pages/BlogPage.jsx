@@ -2,7 +2,7 @@ import React from "react";
 import Section2 from "../components/blogs/Section2";
 import Footer from "../components/footer/Footer";
 import HeroComponent from "../components/global-components/HeroComponent";
-import cover from "../assets/blogs/blog_hero.png";
+import cover from "../assets/blogs/blog_hero.webp";
 
 const BlogPage = () => {
   const heroData = {

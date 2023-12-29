@@ -2,11 +2,11 @@ import React from "react";
 import Header from "../header/Header";
 import shape from "../../assets/landing/shape.svg";
 import PrimaryCarousal from "./PrimaryCarousal";
-import bg from "../../assets/landing/hero_background.png";
-import image_one from "../../assets/landing/carousal/imageOne.png";
-import image_two from "../../assets/landing/carousal/imageTwo.png";
-import image_three from "../../assets/landing/carousal/imageThree.png";
-import image_four from "../../assets/landing/carousal/imageFour.png";
+import bg from "../../assets/landing/hero_background.webp";
+import image_one from "../../assets/landing/carousal/imageOne.webp";
+import image_two from "../../assets/landing/carousal/imageTwo.webp";
+import image_three from "../../assets/landing/carousal/imageThree.webp";
+import image_four from "../../assets/landing/carousal/imageFour.webp";
 import { HashLink, NavHashLink } from 'react-router-hash-link'
 import { useNavigate } from "react-router";
 

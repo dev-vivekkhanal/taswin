@@ -1,23 +1,23 @@
-import img1 from "../../assets/blogs/singleBlog/image1.png";
-import img2 from "../../assets/blogs/singleBlog/image2.png";
-import img1_1 from "../../assets/blogs/singleBlog/1_1.png";
-import img1_2 from "../../assets/blogs/singleBlog/1_2.png";
-import img1_3 from "../../assets/blogs/singleBlog/1_3.png";
-import img1_4 from "../../assets/blogs/singleBlog/1_4.png";
-import img2_1 from "../../assets/blogs/singleBlog/2_1.png";
-import img2_2 from "../../assets/blogs/singleBlog/2_2.png";
-import img2_3 from "../../assets/blogs/singleBlog/2_3.png";
-import img2_4 from "../../assets/blogs/singleBlog/2_4.png";
-import img3_1 from "../../assets/blogs/singleBlog/3_1.png";
-import img3_2 from "../../assets/blogs/singleBlog/3_2.png";
-import img3_3 from "../../assets/blogs/singleBlog/3_3.png";
-import img3_4 from "../../assets/blogs/singleBlog/3_4.png";
-import img4_1 from "../../assets/blogs/singleBlog/4_1.png";
+import img1 from "../../assets/blogs/singleBlog/image1.webp";
+import img2 from "../../assets/blogs/singleBlog/image2.webp";
+import img1_1 from "../../assets/blogs/singleBlog/1_1.jpeg";
+import img1_2 from "../../assets/blogs/singleBlog/1_2.webp";
+import img1_3 from "../../assets/blogs/singleBlog/1_3.webp";
+import img1_4 from "../../assets/blogs/singleBlog/1_4.webp";
+import img2_1 from "../../assets/blogs/singleBlog/2_1.webp";
+import img2_2 from "../../assets/blogs/singleBlog/2_2.webp";
+import img2_3 from "../../assets/blogs/singleBlog/2_3.webp";
+import img2_4 from "../../assets/blogs/singleBlog/2_4.webp";
+import img3_1 from "../../assets/blogs/singleBlog/3_1.webp";
+import img3_2 from "../../assets/blogs/singleBlog/3_2.webp";
+import img3_3 from "../../assets/blogs/singleBlog/3_3.webp";
+import img3_4 from "../../assets/blogs/singleBlog/3_4.webp";
+import img4_1 from "../../assets/blogs/singleBlog/4_1.webp";
 
-import blog1 from "../../assets/blogs/blog1_card.png";
-import blog2 from "../../assets/blogs/blog2_card.png";
-import blog3 from "../../assets/blogs/blog3_card.png";
-import blog4 from "../../assets/blogs/blog4_card.png";
+import blog1 from "../../assets/blogs/blog1_card.webp";
+import blog2 from "../../assets/blogs/blog2_card.webp";
+import blog3 from "../../assets/blogs/blog3_card.webp";
+import blog4 from "../../assets/blogs/blog4_card.webp";
 
 export const blogsData = [
   {

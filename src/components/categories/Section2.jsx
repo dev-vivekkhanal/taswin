@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ProductCard from "../landing/ProductCard";
-import truck from '../../assets/global/truck.gif'
+import truck from '../../assets/global/truck.webp'
 import { Link } from "react-router-dom";
 import { allProducts } from "../../mock/products/allProducts";
 

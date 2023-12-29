@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../../assets/landing/section4_bg.png'
+import bg from '../../assets/landing/section4_bg.webp'
 import shape from '../../assets/landing/shape.svg'
 
 const Section4 = () => {
