@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../assets/landing/section6_img.png'
+import img from '../../assets/landing/section6_img.webp'
 import shape from "../../assets/landing/shape.svg";
 
 const Section6 = () => {

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ProductCard from "./ProductCard";
 import { Link } from "react-router-dom";
 import { allProducts } from "../../mock/products/allProducts";
-import truck from '../../assets/global/truck.gif'
+import truck from '../../assets/global/truck.webp'
 
 const Section3 = () => {
   const [activeTab, setActiveTab] = useState("ALL PRODUCTS");

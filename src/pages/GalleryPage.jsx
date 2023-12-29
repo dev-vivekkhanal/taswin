@@ -4,7 +4,7 @@ import square from "../assets/gallery/square.png";
 import rectangle from "../assets/gallery/rectangle.png";
 import play from "../assets/gallery/playButton.svg";
 import Footer from "../components/footer/Footer";
-import cover from "../assets/gallery/gallery_hero.png";
+import cover from "../assets/gallery/gallery_hero.webp";
 import { galleryData } from "../mock/gallery/galleryData";
 
 const GalleryPage = () => {

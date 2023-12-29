@@ -5,7 +5,7 @@ import Section3 from "../components/about/Section3";
 import Contact from "../components/about/Contact";
 import Footer from "../components/footer/Footer";
 import { useLocation } from "react-router";
-import cover from "../assets/about/about_hero.png";
+import cover from "../assets/about/about_hero.webp";
 
 const AboutPage = () => {
   const location = useLocation();

@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../assets/landing/section5_img.png'
+import img from '../../assets/landing/section5_img.webp'
 
 const Section5 = () => {
 

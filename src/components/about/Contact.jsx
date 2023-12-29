@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../assets/about/contact_img.png'
+import img from '../../assets/about/contact_img.webp'
 import PrimaryButton from '../global-components/PrimaryButton'
 
 const Contact = () => {
