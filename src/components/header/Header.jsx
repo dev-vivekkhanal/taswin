@@ -27,10 +27,6 @@ const Header = ({ textColor }) => {
       name: "About",
       path: "/about",
     },
-    // {
-    //   name: "Contact",
-    //   path: "/",
-    // },
   ];
 
   const [products, setProducts] = useState();
@@ -49,7 +45,7 @@ const Header = ({ textColor }) => {
     <header className="absolute top-0 left-0 right-0 z-[110] bg-gradient-to-b from-[#ffffff48] to-transparent text-[#07260E]">
       <div className="w-[90%] mx-auto flex justify-between items-start py-8">
         <h1 className="flex-1 text-primary font-semibold text-3xl">
-          <img src={logo} alt="taswin logo" />
+          <img src={logo} className="w-[150px]" alt="taswin logo" />
         </h1>
         <div className="flex-1  flex-col gap-4 justify-center items-center hidden md:flex">
           {/* search */}

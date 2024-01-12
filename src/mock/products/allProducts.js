@@ -4,10 +4,12 @@ import wheat_1 from '../../assets/products/grains/Wheat/wheat_1.webp'
 import wheat_2 from '../../assets/products/grains/Wheat/wheat_2.webp'
 import barlay_1 from '../../assets/products/grains/Barley/barley_1.webp'
 import barlay_2 from '../../assets/products/grains/Barley/barley_2.webp'
+import sorghum_1 from '../../assets/products/grains/Sorghum/sorghum_1.webp'
 import sorghum_2 from '../../assets/products/grains/Sorghum/sorghum_2.webp'
 import millet_1 from '../../assets/products/grains/Millet/millet_1.webp'
 import millet_2 from '../../assets/products/grains/Millet/millet_2.webp'
-import sorghum_1 from '../../assets/products/grains/Chickpeas/sorghum_1.webp'
+import chickpeas_1 from '../../assets/products/grains/Chickpeas/chickpeas_1.webp'
+import chickpeas_2 from '../../assets/products/grains/Chickpeas/chickpeas_2.webp'
 
 
 import wheat_flour_1 from '../../assets/products/flour/WheatFlour/wheat_flour_1.webp'
@@ -48,7 +50,8 @@ import cauliflower_1 from '../../assets/products/veggies-fruits/Cauliflower/caul
 import cauliflower_2 from '../../assets/products/veggies-fruits/Cauliflower/cauliflower_2.webp'
 import fenugreek_veg_1 from '../../assets/products/veggies-fruits/Fenugreek/fenugreek_1.webp'
 import fenugreek_veg_2 from '../../assets/products/veggies-fruits/Fenugreek/fenugreek_2.webp'
-import garlic_dice from '../../assets/products/veggies-fruits/GarlicDice/garlic_dice.webp'
+import garlic_dice_1 from '../../assets/products/veggies-fruits/GarlicDice/garlic_dice_1.webp'
+import garlic_dice_2 from '../../assets/products/veggies-fruits/GarlicDice/garlic_dice_2.webp'
 import green_french_beans_1 from '../../assets/products/veggies-fruits/GreenFrenchBeans/green_french_beans_1.webp'
 import green_french_beans_2 from '../../assets/products/veggies-fruits/GreenFrenchBeans/green_french_beans_2.webp'
 import onion_red from '../../assets/products/veggies-fruits/OnionRed/onion_red.webp'
@@ -287,8 +290,8 @@ export const allProducts = [
                 product_name: "Garlic Dice",
                 product_id: "e2g3m7-vegetables-fruits",
                 product_image: [
-                    garlic_dice,
-                    garlic_dice
+                    garlic_dice_1,
+                    garlic_dice_2
                 ],
                 value_desc: "Save time in the kitchen with our convenient garlic dice, offering the rich, aromatic essence of fresh garlic."
             },
@@ -435,7 +438,7 @@ export const allProducts = [
             {
                 product_name: "Sharbati Rice",
                 product_id: "s7a4b0t1-rice",
-                product_image: ["rice_sharbati", "rice_sharbati"],
+                product_image: [sharbati_rice, sharbati_rice],
                 value_desc: "Discover the exquisite flavor and versatility of Sharbati rice with our premium variants.",
                 variants: [
                     {
@@ -601,7 +604,7 @@ export const allProducts = [
             {
                 product_name: "Other Rices",
                 product_id: "o7h8r0-rice",
-                product_image: ["rice_otherrices", "rice_otherrices"],
+                product_image: [ir_and_other_rice, ir_and_other_rice],
                 value_desc: "A selection of other rice varieties known for their unique qualities.",
                 variants: [
                     {
@@ -643,8 +646,8 @@ export const allProducts = [
                 product_name: "Chickpeas",
                 product_id: "m8c1g6-grains",
                 product_image: [
-                    '',
-                    ''
+                    chickpeas_1,
+                    chickpeas_2
                 ],
                 value_desc: "Premium chickpeas, packed with protein and fiber. Perfect for hummus, curries, and salads. Elevate your plant-based cuisine with these legumes."
             },
@@ -755,12 +758,6 @@ export const allProducts = [
                 product_image: [sunflower_oil_1, sunflower_oil_2],
                 value_desc: "Light and heart-healthy, our sunflower oil is perfect for frying, baking, and sautéing, offering a neutral flavor that lets your ingredients shine."
             },
-            // {
-            //     product_name: "Raw Chicken Drumstick",
-            //     product_id: "o5r2c1-chicken",
-            //     product_image: ["raw_chicken_drumstick", "raw_chicken_drumstick"],
-            //     value_desc: "Fresh and juicy, our raw chicken drumsticks are perfect for grilling, frying, or roasting to your preference."
-            // },
         ]
     },
     {
@@ -1036,7 +1033,7 @@ export const allProducts = [
             {
                 product_name: "Chickpeas",
                 product_id: "m8c1g6-grains",
-                product_image: [],
+                product_image: [chickpeas_1, chickpeas_2],
                 value_desc: "Premium chickpeas, packed with protein and fiber. Perfect for hummus, curries, and salads. Elevate your plant-based cuisine with these legumes."
             }
         ]
@@ -1075,12 +1072,6 @@ export const allProducts = [
         comments: null,
         totalProducts: 6,
         products: [
-            // {
-            //     product_name: "Raw Chicken Drumstick",
-            //     product_id: "o5r2c1-chicken",
-            //     product_image: ["raw_chicken_drumstick", "raw_chicken_drumstick"],
-            //     value_desc: "Fresh and juicy, our raw chicken drumsticks are perfect for grilling, frying, or roasting to your preference."
-            // },
             {
                 product_name: "Raw Chicken Leg Quarter",
                 product_id: "o8l4q2-chicken",
@@ -1189,7 +1180,7 @@ export const allProducts = [
             {
                 product_name: "Garlic Dice",
                 product_id: "e2g3m7-vegetables-fruits",
-                product_image: [garlic_dice, garlic_dice],
+                product_image: [garlic_dice_1, garlic_dice_2],
                 value_desc: "Save time in the kitchen with our convenient garlic dice, offering the rich, aromatic essence of fresh garlic."
             },
             {
@@ -1376,13 +1367,5 @@ export const allProducts = [
             },
         ]
     },
-    // {
-    //     category_name: "ADDITIONAL",
-    //     category_id: 'cat-011',
-    //     status: "active",
-    //     comments: null,
-    //     totalProducts: null,
-    //     products: []
-    // }
 ];
 

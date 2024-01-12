@@ -2,6 +2,7 @@ import React from "react";
 import instagram from "../../assets/footer/instagram.svg";
 import twitter from "../../assets/footer/twitter.svg";
 import facebook from "../../assets/footer/facebook.svg";
+import logo from '../../assets/global/taswin_logo.svg';
 import { footer_data } from "../../mock/footer/footer_data";
 import { Link } from "react-router-dom";
 
@@ -26,11 +27,14 @@ const Footer = () => {
   ];
   return (
     <footer className="bg-secondary">
-      <div className="flex flex-col md:flex-row gap-10 py-20 w-[90%] mx-auto">
+      <div className="flex flex-col md:flex-row gap-10 pb-20 pt-14 w-[90%] mx-auto">
         <div className="flex-1">
-          <h1 className="text-3xl font-semibold mb-5 text-primary">
+          {/* <h1 className="text-3xl font-semibold mb-5 text-primary">
             {footer_data?.basic_info?.brand_name}
-          </h1>
+          </h1> */}
+          <div className="w-full max-w-[160px]">
+            <img src={logo} alt="" className="w-full" />
+          </div>
           <p className="text-primary text-sm max-w-[400px]">
             {footer_data?.basic_info?.desc}
           </p>
@@ -59,7 +63,6 @@ const Footer = () => {
                       <div key={l_index} className="mb-2">
                         <Link
                           to={l_data?.link_address}
-                          // rel="noopener noreferrer"
                           className="text-primary"
                         >
                           {l_data?.link_name}

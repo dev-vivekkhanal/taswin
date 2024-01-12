@@ -1,7 +1,7 @@
 export const footer_data = {
   basic_info: {
     brand_name: "Taswin",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    desc: "Tashwin Trading's showcases a full varsity of products from agricultural to poultry and many more.",
     social_links: [
       {
         name: "Instagram",
@@ -45,28 +45,6 @@ export const footer_data = {
         },
       ],
     },
-
-    // {
-    //   heading: "Information",
-    //   all_links: [
-    //     {
-    //       link_name: "Help Center",
-    //       link_address: "",
-    //     },
-    //     {
-    //       link_name: "Payment Methods",
-    //       link_address: "",
-    //     },
-    //     {
-    //       link_name: "Retun and Refund",
-    //       link_address: "",
-    //     },
-    //     {
-    //       link_name: "Privacy Policy",
-    //       link_address: "",
-    //     },
-    //   ],
-    // },
 
     {
       heading: "Contact",

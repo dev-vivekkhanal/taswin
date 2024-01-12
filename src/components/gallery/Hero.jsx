@@ -6,7 +6,6 @@ import shape from "../../assets/landing/shape.svg";
 const Hero = () => {
   return (
     <section
-      // style={{ backgroundImage: `url(${bg})` }}
       className={`min-h-[70vh] bg-cover md:bg-top relative w-full bg-[url('/src/assets/about/about_hero.png')] bg-bottom`}
     >
       <Header textColor={`primary`} />

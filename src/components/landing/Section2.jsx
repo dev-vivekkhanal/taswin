@@ -3,13 +3,14 @@ import rice from "../../assets/landing/rice_icon.svg";
 import wheat from "../../assets/landing/wheat_group.svg";
 import fruits from "../../assets/landing/fruits_group.svg";
 import oil from "../../assets/landing/oil_group.svg";
+import FoodCircle from "../global-components/FoodCircle";
 
 const Section2 = () => {
   return (
-    <section className="py-32">
-      <div className="w-[80%] mx-auto space-y-10">
+    <section className="py-32 relative">
+      <div className="w-[80%] mx-auto space-y-10 relative z-[100]">
         <img src={rice} alt="rice icon" />
-        <div className="flex flex-col md:flex-row justify-center  gap-32">
+        <div className="flex flex-col md:flex-row justify-center gap-32">
           <h1 className="font-bold text-4xl flex-1 text-primary">
             To forget how to dig the earth and to tend the soil is to forget
             ourselves
@@ -39,6 +40,7 @@ const Section2 = () => {
           </div>
         </div>
       </div>
+      <FoodCircle />
     </section>
   );
 };

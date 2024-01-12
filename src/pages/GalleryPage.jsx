@@ -16,54 +16,6 @@ const GalleryPage = () => {
     linkColor: "white",
   };
 
-  // const galleryData = [
-  //   {
-  //     id: 1,
-  //     image: square,
-  //     type: "",
-  //   },
-  //   {
-  //     id: 0,
-  //     image: square,
-  //     type: "",
-  //   },
-  //   {
-  //     id: 2,
-  //     image: rectangle,
-  //     type: "wide",
-  //   },
-  //   {
-  //     id: 3,
-  //     image: rectangle,
-  //     type: "wide",
-  //   },
-  //   {
-  //     id: 4,
-  //     image: square,
-  //     type: "",
-  //   },
-  //   {
-  //     id: 5,
-  //     image: square,
-  //     type: "",
-  //   },
-  //   {
-  //     id: 6,
-  //     image: square,
-  //     type: "",
-  //   },
-  //   {
-  //     id: 7,
-  //     image: square,
-  //     type: "",
-  //   },
-  //   {
-  //     id: 8,
-  //     image: rectangle,
-  //     type: "wide",
-  //   },
-  // ];
-
   return (
     <div>
       <HeroComponent

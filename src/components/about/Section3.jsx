@@ -4,38 +4,31 @@ import collab from '../../assets/about/icons/collaboration.svg'
 import transparency from '../../assets/about/icons/transparency.svg'
 import trust from '../../assets/about/icons/trust.svg'
 import integrity from '../../assets/about/icons/integrity.svg'
+import FoodCircle from '../global-components/FoodCircle';
 
 const Section3 = () => {
 
     const section_data = [
         {
             value_id: 0,
-            // value_title: 'Collaboration',
-            // value_text: 'Collaboration is the process of two or more people or organizations working together to complete a task or achieve a goal.',
             value_icon: collab,
         },
         {
             value_id: 1,
-            // value_title: 'Transparency',
-            // value_text: 'Transparency, as used in science is operating in such a way that it is easy for others to see what actions are performed.',
             value_icon: transparency,
         },
         {
             value_id: 2,
-            // value_title: 'Trust',
-            // value_text: 'Trust will help us foster a positive and productive environment that delivers value to our users and customers.',
             value_icon: trust,
         },
         {
             value_id: 3,
-            // value_title: 'Integrity',
-            // value_text: 'Integrity is the practice of showing a consistent and uncompromising adherence to strong moral and ethical principles.',
             value_icon: integrity,
         },
     ];
 
   return (
-    <div className="bg-[url('/src/assets/about/section3_img.png')] h-screen bg-cover bg-center py-10 md:py-32 px-5 md:px-0">
+    <div className="bg-[url('/src/assets/about/section3_img.png')] h-screen bg-cover bg-center py-10 md:py-32 px-5 md:px-0 relative">
         <div className='w-full flex flex-col justify-center items-center'>
             <div className='w-fit text-center mb-5'>
                 <h1 className='font-[700] text-5xl'>Our Values</h1>
@@ -55,6 +48,7 @@ const Section3 = () => {
                 }
             </div>
         </div>
+        <FoodCircle />
     </div>
   )
 }

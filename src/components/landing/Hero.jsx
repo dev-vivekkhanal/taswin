@@ -35,7 +35,6 @@ const Hero = () => {
 
   return (
     <section
-      // style={{ backgroundImage: `url(${bg})` }}
       className={`h-screen relative w-full`}
     >
       <Header textColor={`primary`} />

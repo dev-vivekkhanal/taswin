@@ -13,7 +13,6 @@ const Section2 = () => {
             title={data?.cardTitle}
             image={data?.cardImage}
             desc={data?.cardDesc}
-            date={data?.date}
           />
         ))}
       </div>

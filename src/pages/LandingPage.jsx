@@ -10,7 +10,7 @@ import Section7 from "../components/landing/Section7";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="relative">
       <Hero />
       <Section2 />
       <Section3 />

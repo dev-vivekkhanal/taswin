@@ -30,15 +30,6 @@ export const blogsData = [
     blogDesc: "",
     page_cover_img: img1_1,
     contents: [
-      {
-        type: "h1",
-        data: "Unveiling the Abundant Tapestry of Indian Pulses and Grains",
-      },
-
-      {
-        type: "img",
-        data: img1_1,
-      },
 
       {
         type: "h2",
@@ -104,15 +95,6 @@ export const blogsData = [
     cardDesc: "",
     page_cover_img: img2_1,
     contents: [
-      {
-        type: "h1",
-        data: "Import Rice from India to the world",
-      },
-
-      {
-        type: "img",
-        data: img2_1,
-      },
 
       {
         type: "h2",
@@ -181,16 +163,6 @@ export const blogsData = [
     page_cover_img: img3_1,
     contents: [
       {
-        type: "h1",
-        data: "Grains: A Journey Through Culinary Heritage and Nutritional Bounty",
-      },
-
-      {
-        type: "img",
-        data: img3_1,
-      },
-
-      {
         type: "h2",
         data: "Grains: The Foundation of a Nutrient-Rich Diet",
       },
@@ -256,15 +228,6 @@ export const blogsData = [
     blogDesc: "",
     page_cover_img: img4_1,
     contents: [
-      {
-        type: "h1",
-        data: "Culinary Elixir: Unlocking the Profound Health and Gastronomic Grandeur of Vegetables and Fruits",
-      },
-
-      {
-        type: "img",
-        data: img4_1,
-      },
 
       {
         type: "h2",
