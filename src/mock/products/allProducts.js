@@ -54,8 +54,10 @@ import garlic_dice_1 from '../../assets/products/veggies-fruits/GarlicDice/garli
 import garlic_dice_2 from '../../assets/products/veggies-fruits/GarlicDice/garlic_dice_2.webp'
 import green_french_beans_1 from '../../assets/products/veggies-fruits/GreenFrenchBeans/green_french_beans_1.webp'
 import green_french_beans_2 from '../../assets/products/veggies-fruits/GreenFrenchBeans/green_french_beans_2.webp'
-import onion_red from '../../assets/products/veggies-fruits/OnionRed/onion_red.webp'
+import onion_red_1 from '../../assets/products/veggies-fruits/OnionRed/onion_red_1.webp'
+import onion_red_2 from '../../assets/products/veggies-fruits/OnionRed/onion_red_2.webp'
 import onion_white_1 from '../../assets/products/veggies-fruits/OnionWhite/onion_white_1.webp'
+import onion_white_2 from '../../assets/products/veggies-fruits/OnionWhite/onion_white_2.webp'
 import papaya_1 from '../../assets/products/veggies-fruits/Papaya/papaya_1.webp'
 import papaya_2 from '../../assets/products/veggies-fruits/Papaya/papaya_2.webp'
 import peach_1 from '../../assets/products/veggies-fruits/Peach/peach_1.webp'
@@ -70,6 +72,7 @@ import ir_and_other_rice from '../../assets/products/rice/ir_and_other_rice.webp
 import pussa_basmati_rice from '../../assets/products/rice/pussa_basmati_rice.webp'
 import sharbati_rice from '../../assets/products/rice/sharbati_rice.webp'
 import sigandha_rice from '../../assets/products/rice/sigandha_rice.webp'
+import pr_11_rice_1 from '../../assets/products/rice/pr_11_rice_1.webp'
 
 
 import palm_oil_1 from '../../assets/products/oil/palmOil/palm_oil_1.webp'
@@ -158,9 +161,10 @@ export const allProducts = [
         products: [
             {
                 product_name: "Pusa Basmati Rice",
+                category_name: 'RICE',
                 product_id: "34as07r-rice",
                 product_image: [pussa_basmati_rice, pussa_basmati_rice],
-                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
+                value_desc: "Pusa Basmati Rice has been grown in the Himalayan region since ages. Getting its name from Sanskrit meaning fragrant, this is a long grain rice with a fluffy texture and it expands well on cooking.",
                 variants: [
                     {
                         v_id: "Pusa-RR-1",
@@ -191,6 +195,7 @@ export const allProducts = [
             {
                 product_name: "Sorghum",
                 product_id: "t5j8h9-grains",
+                category_name: 'GRAINS',
                 product_image: [
                     sorghum_1,
                     sorghum_2
@@ -200,17 +205,20 @@ export const allProducts = [
             {
                 product_name: "Raw Chicken Breast",
                 product_id: "o2b9r5-chicken",
+                category_name: 'POULTRY',
                 product_image: [rawChickenBreast_1, rawChickenBreast_2],
                 value_desc: "Versatile and lean, our raw chicken breasts are the perfect foundation for a variety of delicious recipes."
             },
             {
                 product_name: "Flue-Cured Virginia Tobacco",
+                category_name: 'TOBACCO',
                 product_id: "r1t2o3-tobacco",
                 product_image: [flue_cured_virginia_tobacco_1, flue_cured_virginia_tobacco_1],
                 value_desc: "This premium tobacco is characterized by its mild, bright flavor and smooth smoking experience. It's a popular choice for various tobacco products, including cigarettes, due to its excellent burning properties and pleasant taste."
             },
             {
                 product_name: "Millet",
+                category_name: 'GRAINS',
                 product_id: "l9f3o6-grains",
                 product_image: [
                     millet_1,
@@ -220,24 +228,28 @@ export const allProducts = [
             },
             {
                 product_name: "Palm Oil",
+                category_name: 'OIL',
                 product_id: "o3p9i2-oil",
                 product_image: [palm_oil_1, palm_oil_2],
                 value_desc: "Our premium palm oil is a versatile cooking oil known for its stability and rich, red hue. Ideal for a wide range of culinary applications."
             },
             {
                 product_name: "Frozen Chicken Gizzards",
+                category_name: 'POULTRY',
                 product_id: "g1z98d-chicken",
                 product_image: [frozenChickenGizzards_1, frozenChickenGizzards_2],
-                value_desc: ""
+                value_desc: "Discover the rich, savory flavor and tender texture of our frozen chicken gizzards, perfect for stews and casseroles."
             },
             {
                 product_name: "Frozen Chicken Knees",
+                category_name: 'POULTRY',
                 product_id: "kn33z5-chicken",
                 product_image: [frozenChickenKneeCartilageChicken_1, frozenChickenKneeCartilageChicken_2],
-                value_desc: ""
+                value_desc: "Enhance your soups and broths with our frozen chicken knee cartilage, known for its unique texture and health benefits."
             },
             {
                 product_name: "Wheat Flour",
+                category_name: 'FLOURS',
                 product_id: "p8q2k6-flours",
                 product_image: [
                     wheat_flour_1,
@@ -247,6 +259,7 @@ export const allProducts = [
             },
             {
                 product_name: "Yellow Corn",
+                category_name: 'GRAINS',
                 product_id: "yq3b1r9-grains",
                 product_image: [
                     yellow_corn_1,
@@ -256,9 +269,10 @@ export const allProducts = [
             },
             {
                 product_name: "1509 Basmati Rice",
+                category_name: 'RICE',
                 product_id: "53bm09z-rice",
                 product_image: [rice_1509_basmati_rice, rice_1509_basmati_rice],
-                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
+                value_desc: "Straight from the Indo-Gangetic fertile plains of India, 1509 Basmati rice brings you one of the most nutritious, deliciously musky long-grained varieties of Indian rice. It has also inherited the pleasurable fineness and enticing aroma of the Indian Basmati Rice family.",
                 variants: [
                     {
                         v_id: "1509-RR-1",
@@ -289,6 +303,7 @@ export const allProducts = [
             {
                 product_name: "Garlic Dice",
                 product_id: "e2g3m7-vegetables-fruits",
+                category_name: 'VEGETABLES / FRUITS',
                 product_image: [
                     garlic_dice_1,
                     garlic_dice_2
@@ -297,6 +312,7 @@ export const allProducts = [
             },
             {
                 product_name: "Red Chilies",
+                category_name: 'SPICES',
                 product_id: "o2p7h8-spices",
                 product_image: [
                     red_chilli,
@@ -306,18 +322,21 @@ export const allProducts = [
             },
             {
                 product_name: "Raw Chicken Leg Quarter",
+                category_name: 'POULTRY',
                 product_id: "o8l4q2-chicken",
                 product_image: [rawChickenLegQuater_1, rawChickenLegQuater_2],
                 value_desc: "Experience the rich, savory taste of both thigh and drumstick in our raw chicken leg quarters, ideal for hearty meals."
             },
             {
                 product_name: "Sugar",
+                category_name: 'SUGAR',
                 product_id: "s9g0r3-sugar",
                 product_image: [sugar_1, sugar_2],
                 value_desc: "Discover the essential ingredient for your sweetest recipes with our fine, pure sugar. Perfect for baking, cooking, and sweetening your favorite treats."
             },
             {
                 product_name: "Green French Beans",
+                category_name: 'VEGETABLES / FRUITS',
                 product_id: "v6w4k7-vegetables-fruits",
                 product_image: [
                     green_french_beans_1,
@@ -327,6 +346,7 @@ export const allProducts = [
             },
             {
                 product_name: "Rice Flour",
+                category_name: 'FLOURS',
                 product_id: "m5a2i9-flours",
                 product_image: [
                     rice_flour_1,
@@ -336,21 +356,24 @@ export const allProducts = [
             },
             {
                 product_name: "Frozen Chicken Livers",
+                category_name: 'POULTRY',
                 product_id: "l1v443-chicken",
                 product_image: [frozenChickenLivers_1, frozenChickenLivers_2],
-                value_desc: ""
+                value_desc: "Elevate your dishes with our frozen chicken livers, known for their exquisite taste and versatility in cooking."
             },
             {
                 product_name: "Onion White",
+                category_name: 'VEGETABLES / FRUITS',
                 product_id: "g5c2o6-vegetables-fruits",
                 product_image: [
                     onion_white_1,
-                    onion_white_1
+                    onion_white_2
                 ],
                 value_desc: "Versatile and milder in taste, our white onions are perfect for a wide range of recipes, from salads to stews."
             },
             {
                 product_name: "Banana",
+                category_name: 'VEGETABLES / FRUITS',
                 product_id: "t5j8h9-vegetables-fruits",
                 product_image: [
                     banana_1,
@@ -360,9 +383,10 @@ export const allProducts = [
             },
             {
                 product_name: "Sugandha Rice",
+                category_name: 'RICE',
                 product_id: "19su87g-rice",
                 product_image: [sigandha_rice, sigandha_rice],
-                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
+                value_desc: "Sugandha Basmati Rice, which has low glycemic index and is accessible with micro-nutrients particularly iron and zinc. As it is indicated by its name, the offered rice variety has a catchy and pleasant aroma.",
                 variants: [
                     {
                         v_id: "Sugandha-RR-1",
@@ -392,6 +416,7 @@ export const allProducts = [
             },
             {
                 product_name: "Black Pepper",
+                category_name: 'SPICES',
                 product_id: "f3e6n9-spices",
                 product_image: [
                     black_pepper_1,
@@ -401,6 +426,7 @@ export const allProducts = [
             },
             {
                 product_name: "Peach",
+                category_name: 'VEGETABLES / FRUITS',
                 product_id: "a4b3c6-vegetables-fruits",
                 product_image: [
                     peach_1,
@@ -410,6 +436,7 @@ export const allProducts = [
             },
             {
                 product_name: "Turmeric Fingers",
+                category_name: 'SPICES',
                 product_id: "p4n7s8-spices",
                 product_image: [
                     turmeric_fingers_1,
@@ -419,6 +446,7 @@ export const allProducts = [
             },
             {
                 product_name: "Cauliflower",
+                category_name: 'VEGETABLES / FRUITS',
                 product_id: "r9e8d2-vegetables-fruits",
                 product_image: [
                     cauliflower_1,
@@ -428,6 +456,7 @@ export const allProducts = [
             },
             {
                 product_name: "Maida Flour",
+                category_name: 'FLOURS',
                 product_id: "n7h3u6-flours",
                 product_image: [
                     maida_flour_1,
@@ -437,6 +466,7 @@ export const allProducts = [
             },
             {
                 product_name: "Sharbati Rice",
+                category_name: 'RICE',
                 product_id: "s7a4b0t1-rice",
                 product_image: [sharbati_rice, sharbati_rice],
                 value_desc: "Discover the exquisite flavor and versatility of Sharbati rice with our premium variants.",
@@ -469,6 +499,7 @@ export const allProducts = [
             },
             {
                 product_name: "Cumin Seeds",
+                category_name: 'SPICES',
                 product_id: "s4p5i6-spices",
                 product_image: [
                     cumin_seeds_1,
@@ -478,12 +509,14 @@ export const allProducts = [
             },
             {
                 product_name: "Frozen Chicken Hearts",
+                category_name: 'POULTRY',
                 product_id: "f1h2e3-chicken",
                 product_image: [frozenChickenHearts_1, frozenChickenHearts_2],
                 value_desc: "A delicacy with a unique texture, our frozen chicken hearts add a distinctive touch to your culinary adventures."
             },
             {
                 product_name: "Peanuts Red",
+                category_name: 'PULSES',
                 product_id: "p1r7b2-pulses",
                 product_image: [
                     peanuts_red,
@@ -493,12 +526,14 @@ export const allProducts = [
             },
             {
                 product_name: "Frozen 2 Joint Chicken Wing",
+                category_name: 'POULTRY',
                 product_id: "f2j9w1-chicken",
                 product_image: [frozenTwoJointChickenWing_1, frozenTwoJointChickenWing_2],
                 value_desc: "Enjoy the convenience of frozen, two-joint chicken wings - crispy and perfect for snacks or appetizers."
             },
             {
                 product_name: "Hulled Regular",
+                category_name: 'SPICES',
                 product_id: "g5f3s6-spices",
                 product_image: [
                     hulled_regular_1,
@@ -508,6 +543,7 @@ export const allProducts = [
             },
             {
                 product_name: "Barley",
+                category_name: 'GRAINS',
                 product_id: "v6w4k7-grains",
                 product_image: [
                     barlay_1,
@@ -517,9 +553,10 @@ export const allProducts = [
             },
             {
                 product_name: "1121 Basmati Rice",
+                category_name: 'RICE',
                 product_id: "65aw04z-rice",
                 product_image: [rice_1121_basmati_rice, rice_1121_basmati_rice],
-                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
+                value_desc: "The 1121 variety of Basmati rice is considered to be the longest and the thinnest of all Basmati varieties. It is used as a brand name for a specific type of Basmati rice that is known for its long grains, aromatic fragrance and its unique taste.",
                 variants: [
                     {
                         v_id: "1121-RR-1",
@@ -549,15 +586,17 @@ export const allProducts = [
             },
             {
                 product_name: "Onion Red",
+                category_name: 'VEGETABLES / FRUITS',
                 product_id: "d4i7g9-vegetables-fruits",
                 product_image: [
-                    onion_red,
-                    onion_red
+                    onion_red_1,
+                    onion_red_2
                 ],
                 value_desc: "Our vibrant red onions are a kitchen essential, adding a sharp, sweet flavor to your culinary creations."
             },
             {
                 product_name: "Black Sesame Seed",
+                category_name: 'SPICES',
                 product_id: "w5e2s8-spices",
                 product_image: [
                     black_sesame_seed_1,
@@ -567,12 +606,14 @@ export const allProducts = [
             },
             {
                 product_name: "Frozen 3 Joint Chicken Wing",
+                category_name: 'POULTRY',
                 product_id: "f3j7w3-chicken",
                 product_image: [frozenThreeJointChickenWing_1, frozenThreeJointChickenWing_2],
                 value_desc: "Our frozen three-joint chicken wings offer more to savor, ideal for sharing or as part of your party platters."
             },
             {
                 product_name: "Wheat",
+                category_name: 'GRAINS',
                 product_id: "s7g9r2-grains",
                 product_image: [
                     wheat_1,
@@ -582,6 +623,7 @@ export const allProducts = [
             },
             {
                 product_name: "Fenugreek",
+                category_name: 'VEGETABLES / FRUITS',
                 product_id: "l6f3o6-vegetables-fruits",
                 product_image: [
                     fenugreek_veg_1,
@@ -591,21 +633,24 @@ export const allProducts = [
             },
             {
                 product_name: "Frozen Chicken Paws",
+                category_name: 'POULTRY',
                 product_id: "p0wzs5-chicken",
                 product_image: [frozenChickenPaws_1, frozenChickenPaws_2],
-                value_desc: ""
+                value_desc: "A delicacy prized for its gelatinous goodness, our frozen chicken paws are a must-have for soups and Asian-inspired dishes."
             },
             {
                 product_name: "Frozen Chicken Shanks",
+                category_name: 'POULTRY',
                 product_id: "sh39sk-chicken",
                 product_image: [frozenChickenShanks_1, frozenChickenShanks_2],
-                value_desc: ""
+                value_desc: "Experience the tenderness and flavor of our frozen chicken shanks, perfect for hearty, slow-cooked dishes."
             },
             {
                 product_name: "Other Rices",
+                category_name: 'RICE',
                 product_id: "o7h8r0-rice",
                 product_image: [ir_and_other_rice, ir_and_other_rice],
-                value_desc: "A selection of other rice varieties known for their unique qualities.",
+                value_desc: "Sona Masuri, IR 64 Parboiled, IR 64 Raw, and Swarna raw and parboiled rice are versatile varieties, offering long-grain options, with parboiled versions for added nutrients,mild flavors and fragnances.",
                 variants: [
                     {
                         v_id: "SonaMasuri-RR-1",
@@ -635,6 +680,7 @@ export const allProducts = [
             },
             {
                 product_name: "Turmeric Powder",
+                category_name: 'SPICES',
                 product_id: "r2m6f3-spices",
                 product_image: [
                     turmeric_powder_1,
@@ -644,6 +690,7 @@ export const allProducts = [
             },
             {
                 product_name: "Chickpeas",
+                category_name: 'GRAINS',
                 product_id: "m8c1g6-grains",
                 product_image: [
                     chickpeas_1,
@@ -653,12 +700,14 @@ export const allProducts = [
             },
             {
                 product_name: "Frozen Chicken Feet",
+                category_name: 'POULTRY',
                 product_id: "f7f8e9-chicken",
                 product_image: [frozenChickenFeet_1, frozenChickenFeet_2],
                 value_desc: "Elevate your broths and soups with our frozen chicken feet, prized for their gelatinous goodness."
             },
             {
                 product_name: "Fenugreek",
+                category_name: 'SPICES',
                 product_id: "m6b5s2-spices",
                 product_image: [
                     fenugreek_1,
@@ -668,6 +717,7 @@ export const allProducts = [
             },
             {
                 product_name: "Spinach",
+                category_name: 'VEGETABLES / FRUITS',
                 product_id: "u7r2n5-vegetables-fruits",
                 product_image: [
                     spinach_1,
@@ -677,6 +727,7 @@ export const allProducts = [
             },
             {
                 product_name: "Sesame Seed",
+                category_name: 'SPICES',
                 product_id: "d9r4c1-spices",
                 product_image: [
                     sesame_1,
@@ -686,9 +737,10 @@ export const allProducts = [
             },
             {
                 product_name: "PR 11 Rice",
+                category_name: 'RICE',
                 product_id: "78pr11r-rice",
-                product_image: [],
-                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
+                product_image: [pr_11_rice_1, pr_11_rice_1],
+                value_desc: "PR 11 is a long grain Non Basmati Rice and is known for its quality of fast cooking. This rice is rich in carbohydrates, is non-sticky after cooking and has uniform grain size.",
                 variants: [
                     {
                         v_id: "PR11-RR-1",
@@ -718,6 +770,7 @@ export const allProducts = [
             },
             {
                 product_name: "Peanuts Brown",
+                category_name: 'PULSES',
                 product_id: "o4b3d6-pulses",
                 product_image: [
                     peanuts_brown,
@@ -727,18 +780,21 @@ export const allProducts = [
             },
             {
                 product_name: "Frozen Chicken Middle Joint",
+                category_name: 'POULTRY',
                 product_id: "j01nt5-chicken",
                 product_image: [frozenMiddleJointWing_1, frozenMiddleJointWing_2],
-                value_desc: ""
+                value_desc: "Savor the best part of the chicken wing with our frozen middle joint wings, ideal for finger-licking appetizers."
             },
             {
                 product_name: "Whole chicken",
+                category_name: 'POULTRY',
                 product_id: "wh01e-chicken",
                 product_image: [wholeChicken_1, wholeChicken_2],
-                value_desc: ""
+                value_desc: "Our whole chicken griller is plump, juicy, and ready to be seasoned and roasted for a delightful family meal."
             },
             {
                 product_name: "Papaya",
+                category_name: 'VEGETABLES / FRUITS',
                 product_id: "m3p1a9-vegetables-fruits",
                 product_image: [
                     papaya_1,
@@ -748,12 +804,14 @@ export const allProducts = [
             },
             {
                 product_name: "Cardamom",
+                category_name: 'SPICES',
                 product_id: "z2i6l9-spices",
                 product_image: [cardamon_1, cardamon_2],
                 value_desc: "Discover the rich, fragrant allure of our cardamom, perfect for enhancing both sweet and savory dishes."
             },
             {
                 product_name: "Sunflower Oil",
+                category_name: 'OIL',
                 product_id: "o7s4u1-oil",
                 product_image: [sunflower_oil_1, sunflower_oil_2],
                 value_desc: "Light and heart-healthy, our sunflower oil is perfect for frying, baking, and sautéing, offering a neutral flavor that lets your ingredients shine."
@@ -771,7 +829,7 @@ export const allProducts = [
                 product_name: "1121 Basmati Rice",
                 product_id: "65aw04z-rice",
                 product_image: [rice_1121_basmati_rice, rice_1121_basmati_rice],
-                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
+                value_desc: "The 1121 variety of Basmati rice is considered to be the longest and the thinnest of all Basmati varieties. It is used as a brand name for a specific type of Basmati rice that is known for its long grains, aromatic fragrance and its unique taste.",
                 variants: [
                     {
                         v_id: "1121-RR-1",
@@ -803,7 +861,7 @@ export const allProducts = [
                 product_name: "Pusa Basmati Rice",
                 product_id: "34as07r-rice",
                 product_image: [pussa_basmati_rice, pussa_basmati_rice],
-                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
+                value_desc: "Pusa Basmati Rice has been grown in the Himalayan region since ages. Getting its name from Sanskrit meaning fragrant, this is a long grain rice with a fluffy texture and it expands well on cooking.",
                 variants: [
                     {
                         v_id: "Pusa-RR-1",
@@ -835,7 +893,7 @@ export const allProducts = [
                 product_name: "1509 Basmati Rice",
                 product_id: "53bm09z-rice",
                 product_image: [rice_1509_basmati_rice, rice_1509_basmati_rice],
-                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
+                value_desc: "Straight from the Indo-Gangetic fertile plains of India, 1509 Basmati rice brings you one of the most nutritious, deliciously musky long-grained varieties of Indian rice. It has also inherited the pleasurable fineness and enticing aroma of the Indian Basmati Rice family.",
                 variants: [
                     {
                         v_id: "1509-RR-1",
@@ -867,7 +925,7 @@ export const allProducts = [
                 product_name: "Sugandha Rice",
                 product_id: "19su87g-rice",
                 product_image: [sigandha_rice, sigandha_rice],
-                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
+                value_desc: "Sugandha Basmati Rice, which has low glycemic index and is accessible with micro-nutrients particularly iron and zinc. As it is indicated by its name, the offered rice variety has a catchy and pleasant aroma.",
                 variants: [
                     {
                         v_id: "Sugandha-RR-1",
@@ -930,8 +988,8 @@ export const allProducts = [
             {
                 product_name: "PR 11 Rice",
                 product_id: "78pr11r-rice",
-                product_image: [],
-                value_desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti culpa, minus rem aliquid amet?",
+                product_image: [pr_11_rice_1, pr_11_rice_1],
+                value_desc: "PR 11 is a long grain Non Basmati Rice and is known for its quality of fast cooking. This rice is rich in carbohydrates, is non-sticky after cooking and has uniform grain size.",
                 variants: [
                     {
                         v_id: "PR11-RR-1",
@@ -963,7 +1021,7 @@ export const allProducts = [
                 product_name: "Other Rices",
                 product_id: "o7h8r0-rice",
                 product_image: [ir_and_other_rice, ir_and_other_rice],
-                value_desc: "A selection of other rice varieties known for their unique qualities.",
+                value_desc: "Sona Masuri, IR 64 Parboiled, IR 64 Raw, and Swarna raw and parboiled rice are versatile varieties, offering long-grain options, with parboiled versions for added nutrients,mild flavors and fragnances.",
                 variants: [
                     {
                         v_id: "SonaMasuri-RR-1",
@@ -1118,43 +1176,43 @@ export const allProducts = [
                 product_name: "Frozen Chicken Gizzards",
                 product_id: "g1z98d-chicken",
                 product_image: [frozenChickenGizzards_1, frozenChickenGizzards_2],
-                value_desc: ""
+                value_desc: "Discover the rich, savory flavor and tender texture of our frozen chicken gizzards, perfect for stews and casseroles."
             },
             {
                 product_name: "Frozen Chicken Knees",
                 product_id: "kn33z5-chicken",
                 product_image: [frozenChickenKneeCartilageChicken_1, frozenChickenKneeCartilageChicken_2],
-                value_desc: ""
+                value_desc: "Enhance your soups and broths with our frozen chicken knee cartilage, known for its unique texture and health benefits."
             },
             {
                 product_name: "Frozen Chicken Livers",
                 product_id: "l1v443-chicken",
                 product_image: [frozenChickenLivers_1, frozenChickenLivers_2],
-                value_desc: ""
+                value_desc: "Elevate your dishes with our frozen chicken livers, known for their exquisite taste and versatility in cooking."
             },
             {
                 product_name: "Frozen Chicken Paws",
                 product_id: "p0wzs5-chicken",
                 product_image: [frozenChickenPaws_1, frozenChickenPaws_2],
-                value_desc: ""
+                value_desc: "A delicacy prized for its gelatinous goodness, our frozen chicken paws are a must-have for soups and Asian-inspired dishes."
             },
             {
                 product_name: "Frozen Chicken Shanks",
                 product_id: "sh39sk-chicken",
                 product_image: [frozenChickenShanks_1, frozenChickenShanks_2],
-                value_desc: ""
+                value_desc: "Experience the tenderness and flavor of our frozen chicken shanks, perfect for hearty, slow-cooked dishes."
             },
             {
                 product_name: "Frozen Chicken Middle Joint",
                 product_id: "j01nt5-chicken",
                 product_image: [frozenMiddleJointWing_1, frozenMiddleJointWing_2],
-                value_desc: ""
+                value_desc: "Savor the best part of the chicken wing with our frozen middle joint wings, ideal for finger-licking appetizers."
             },
             {
                 product_name: "Whole chicken",
                 product_id: "wh01e-chicken",
                 product_image: [wholeChicken_1, wholeChicken_2],
-                value_desc: ""
+                value_desc: "Our whole chicken griller is plump, juicy, and ready to be seasoned and roasted for a delightful family meal."
             },
         ]
     },
@@ -1168,13 +1226,13 @@ export const allProducts = [
             {
                 product_name: "Onion Red",
                 product_id: "d4i7g9-vegetables-fruits",
-                product_image: [onion_red, onion_red],
+                product_image: [onion_red_1, onion_red_2],
                 value_desc: "Our vibrant red onions are a kitchen essential, adding a sharp, sweet flavor to your culinary creations."
             },
             {
                 product_name: "Onion White",
                 product_id: "g5c2o6-vegetables-fruits",
-                product_image: [onion_white_1, onion_white_1],
+                product_image: [onion_white_1, onion_white_2],
                 value_desc: "Versatile and milder in taste, our white onions are perfect for a wide range of recipes, from salads to stews."
             },
             {

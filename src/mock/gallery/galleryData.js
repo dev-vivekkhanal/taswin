@@ -44,7 +44,7 @@ import image39 from "../../assets/products/veggies-fruits/Fenugreek/fenugreek_2.
 import image40 from "../../assets/products/veggies-fruits/GarlicDice/garlic_dice_1.webp";
 import image41 from "../../assets/products/veggies-fruits/GreenFrenchBeans/green_french_beans_1.webp";
 import image42 from "../../assets/products/veggies-fruits/GreenFrenchBeans/green_french_beans_2.webp";
-import image43 from "../../assets/products/veggies-fruits/OnionRed/onion_red.webp";
+import image43 from "../../assets/products/veggies-fruits/OnionRed/onion_red_1.webp";
 import image44 from "../../assets/products/veggies-fruits/OnionWhite/onion_white_1.webp";
 import image45 from "../../assets/products/veggies-fruits/Papaya/papaya_1.webp";
 import image46 from "../../assets/products/veggies-fruits/Papaya/papaya_2.webp";

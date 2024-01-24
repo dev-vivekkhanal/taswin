@@ -1,15 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ProductCard from "../landing/ProductCard";
 import truck from '../../assets/global/truck.webp'
 import { Link } from "react-router-dom";
 import { allProducts } from "../../mock/products/allProducts";
+import { useRecoilState } from "recoil";
+import searchCategoryAtom from "../../recoil/searchCategoryAtom";
 
 const Section2 = () => {
   const [activeTab, setActiveTab] = useState("ALL PRODUCTS");
 
+  const [searchCategory, setSearchCategory] = useRecoilState(searchCategoryAtom);
+
+  useEffect(() => {
+    if (searchCategory !== null) {
+      setActiveTab(searchCategory);
+    }
+    return () => {
+      setSearchCategory(null);
+    };
+  }, []);
+
   return (
     <section className="py-10 md:py-32">
-      <div className="w-full">
+      <div className="w-full" id="products">
         <div className="flex flex-wrap justify-center gap-5 px-4 w-full md:w-[80%] lg:w-[60%] xl:w-[50%]] mx-auto">
           {allProducts?.map((data, index) => {
             return (
@@ -25,7 +38,7 @@ const Section2 = () => {
           })}
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full" id="products">
         {
           allProducts?.map((data) => {
             if (data.category_name === activeTab && data?.products?.length > 0) {

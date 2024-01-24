@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import img from '../../assets/about/section2_img.webp'
 
 const Section2 = () => {
@@ -7,12 +7,16 @@ const Section2 = () => {
         {
             id: 0,
             title: 'Who are we ?',
+            content: `We are a dedicated and passionate team with a common goal: to lead the way on the global stage in the field of food trading. Our unwavering belief lies in India's celebrated culinary heritage, rich with aromatic spices, as a driving force for our nation's advancement.`,
         },
         {
             id: 1,
             title: 'What we do ?',
+            content: `Our primary dedication is to the export of Indian spices and an enticing array of culinary treasures. Within our ranks, you will find perceptive analysts and researchers equipped with a constantly evolving wealth of insights from the global food market, ready to support and enhance your culinary pursuits.`,
         },
     ];
+
+    const [dataTabIndex, setDataTabIndex] = useState(0);
 
     return (
         <section className='py-32'>
@@ -25,20 +29,20 @@ const Section2 = () => {
                     <div className='w-full py-8'>
                         <div className='w-full bg-secondary py-10 sm:py-8 border border-tertiary grid grid-cols-1 sm:grid-cols-2 gap-y-14 sm:gap-y-8 md:gap-y-0 md:flex justify-evenly'>
                             {
-                                section_data?.map((data) => (
+                                section_data?.map((data, i) => (
                                     <React.Fragment key={data?.id}>
                                         <div className='flex items-center'>
                                             <div className='w-full flex flex-col items-center cursor-pointer group transition-all duration-300 ease-out'>
-                                                <p className='text-[14px] hover:text-[16px] text-primary hover:font-[700]'>{data?.title}</p>
+                                                <p className={`text-[14px] hover:text-[16px] text-primary hover:font-[700] ${dataTabIndex == i ? 'text-[16px] font-[700]' : ''}`} onClick={() => setDataTabIndex(i)}>{data?.title}</p>
                                                 <div className={`h-[2px] min-w-0 group-hover:min-w-[94%] bg-primary`}></div>
                                             </div>
                                         </div>
-                                            {
-                                                data?.id === 1 ?
-                                                    null
-                                                    :
-                                                    <div className='hidden md:block w-[1px] h-5 bg-[#999999]'></div>
-                                            }
+                                        {
+                                            data?.id === 1 ?
+                                                null
+                                                :
+                                                <div className='hidden md:block w-[1px] h-5 bg-[#999999]'></div>
+                                        }
                                         {
                                             data?.id === 1 ?
                                                 null
@@ -51,7 +55,9 @@ const Section2 = () => {
                         </div>
                     </div>
                     <div className='w-full'>
-                        <p className='text-sm'>We are a dedicated and passionate team with a common goal: to lead the way on the global stage in the field of food trading. Our unwavering belief lies in India's celebrated culinary heritage, rich with aromatic spices, as a driving force for our nation's advancement. Our primary dedication is to the export of Indian spices and an enticing array of culinary treasures. Within our ranks, you will find perceptive analysts and researchers equipped with a constantly evolving wealth of insights from the global food market, ready to support and enhance your culinary pursuits.</p>
+                        <span className='text-sm'>
+                            {section_data[dataTabIndex]?.content}
+                        </span>
                     </div>
                 </div>
                 <div className='lg:w-[50%] flex justify-center lg:justify-end items-center'>

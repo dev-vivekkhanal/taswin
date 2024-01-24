@@ -6,7 +6,7 @@ import Footer from "../components/footer/Footer";
 import { allProducts } from "../mock/products/allProducts";
 import no_img from "../assets/global/no_image.png";
 import { Link } from "react-router-dom";
-import cover from "../assets/gallery/gallery_hero.webp";
+import cover from "../assets/gallery/variant_hero.webp";
 
 const VariantsPage = () => {
   const params = useParams();
